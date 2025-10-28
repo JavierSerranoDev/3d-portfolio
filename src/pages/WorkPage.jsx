@@ -25,7 +25,7 @@ const WorkPage = () => {
   return (
     <>
       <NavBar/>
-      <WorkHighlight/>
+      <WorkHighlight topProjectsImgPaths={["/images/project1.png", "/images/project2.png", "/images/project3.png"]}/>
       <ul>
         {projects.map((project, index) => (
           <li key={index}>
