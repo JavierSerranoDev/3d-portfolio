@@ -20,7 +20,6 @@ const Testimonials = () => {
                             </div>
                         </div>
                     </GlowCard>
-                    
                 ))}
             </div>
         </div>

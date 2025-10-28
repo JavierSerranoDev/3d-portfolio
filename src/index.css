@@ -336,11 +336,6 @@ section {
       @apply flex flex-col gap-7;
     }
   }
-
-  .work-highlight-project-layout {
-    @apply lg:columns-3 md:columns-2 columns-1 mt-16;
-  }
-
 }
 
 /* Hero text slider starts */

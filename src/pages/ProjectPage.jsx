@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
-import { fetchProjects } from '../constants/index.js';
 import supabase from '../js/supabase-client.js';
+import NavBar from '../components/NavBar.jsx';
 
 const ProjectPage = () => {
 
@@ -32,14 +32,17 @@ const ProjectPage = () => {
   }
 
   return (
-    <div>
-      <h1>Project {currentProject.id}</h1>
-      <p>{currentProject.name}</p>
-      <p>{currentProject.mentions}</p>
-      <p>{currentProject.review}</p>
-      <p>{currentProject.publicationDate}</p>
-      <img src={currentProject.imgPath} alt={currentProject.name}/>
-    </div>
+    <>
+      <NavBar/>
+      <div>
+        <h1>Project {currentProject.id}</h1>
+        <p>{currentProject.name}</p>
+        <p>{currentProject.mentions}</p>
+        <p>{currentProject.review}</p>
+        <p>{currentProject.publicationDate}</p>
+        <img src={currentProject.imgPath} alt={currentProject.name}/>
+      </div>
+    </>
   )
 }
 

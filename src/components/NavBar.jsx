@@ -1,6 +1,5 @@
 import { useEffect, useState } from 'react'
 import { navLinks } from '../constants/index.js'
-import { Link } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
 
 function NavBar() {

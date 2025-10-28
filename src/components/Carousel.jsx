@@ -1,7 +1,7 @@
 import { useState } from "react";
 import ReactSimplyCarousel from "react-simply-carousel";
 
-export default function CarouselComponent({ images }) {
+const CarouselComponent = ({ images }) => {
   const [activeSlideIndex, setActiveSlideIndex] = useState(0);
 
   return (
@@ -36,3 +36,5 @@ export default function CarouselComponent({ images }) {
     </div>
   );
 }
+
+export default CarouselComponent

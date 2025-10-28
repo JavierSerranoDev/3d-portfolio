@@ -1,9 +1,9 @@
-import { Link } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import supabase from '../js/supabase-client.js';
 import NavBar from '../components/NavBar.jsx';
 import Footer from '../sections/Footer.jsx';
 import WorkHighlight from '../sections/WorkHighlight.jsx';
+import ProjectsSection from '../sections/ProjectsSection.jsx';
 
 const WorkPage = () => {
 
@@ -26,16 +26,8 @@ const WorkPage = () => {
     <>
       <NavBar/>
       <WorkHighlight topProjectsImgPaths={["/images/project1.png", "/images/project2.png", "/images/project3.png"]}/>
-      <ul>
-        {projects.map((project, index) => (
-          <li key={index}>
-            <Link to={`/project/${project.id}`}>
-              <h2>{project.name}</h2>
-            </Link>
-          </li>
-        ))}
-      </ul>
-    <Footer/>
+      <ProjectsSection projects={projects}/>
+      <Footer/>
     </>
   )
 }
