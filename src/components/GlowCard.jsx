@@ -1,6 +1,6 @@
 import { useRef } from 'react';
 
-export const GlowCard = ({ card, children, index }) => {
+const GlowCard = ({ card, children, index }) => {
     const cardRefs = useRef([]);
 
     const handleMouseMove = (i) => (e) => {

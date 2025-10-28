@@ -1,5 +1,7 @@
 import { useEffect, useState } from 'react'
 import { navLinks } from '../constants/index.js'
+import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 
 function NavBar() {
     const [scrolled, setScrolled] = useState(false);
@@ -18,26 +20,28 @@ function NavBar() {
   return (
     <header className={`navbar ${scrolled ? 'scrolled' :  'not-scrolled'}`}>
         <div className="inner">
-            <a className="logo" href="#hero">
+            <HashLink className="logo" to="/#hero">
                 Javier Serrano
-            </a>
+            </HashLink>
             <nav className="desktop">
                 <ul>
                     {navLinks.map(({link, name}, index) => (
                         <li key={index} className="group">
-                            <a href={link}>
-                                <span>{name}</span>
-                                <span className="underline"/>
-                            </a>
+                            {
+                                <HashLink smooth to={`/${link}`}>
+                                    <span>{name}</span>
+                                    <span className="underline"/>
+                                </HashLink>
+                            }
                         </li>
                     ))}
                 </ul>
             </nav>
-            <a href="#contact" className="contact-btn group">
+            <HashLink smooth to="/#contact" className="contact-btn group">
                 <div className="inner">
                     <span>Contact me</span>
                 </div>
-            </a>
+            </HashLink>
         </div>
     </header>
   )

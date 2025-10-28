@@ -1,8 +1,11 @@
 import { Link } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import supabase from '../js/supabase-client.js';
+import NavBar from '../components/NavBar.jsx';
+import Footer from '../sections/Footer.jsx';
+import WorkHighlight from '../sections/WorkHighlight.jsx';
 
-const MyProjectsPage = () => {
+const WorkPage = () => {
 
   const [projects, setProjects] = useState([]);
 
@@ -20,8 +23,9 @@ const MyProjectsPage = () => {
   }
 
   return (
-    <div>
-      <h1>Projects</h1>
+    <>
+      <NavBar/>
+      <WorkHighlight/>
       <ul>
         {projects.map((project, index) => (
           <li key={index}>
@@ -31,8 +35,9 @@ const MyProjectsPage = () => {
           </li>
         ))}
       </ul>
-    </div>
+    <Footer/>
+    </>
   )
 }
 
-export default MyProjectsPage
+export default WorkPage
