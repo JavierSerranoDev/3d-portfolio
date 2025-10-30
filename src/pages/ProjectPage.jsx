@@ -2,6 +2,8 @@ import { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import supabase from '../js/supabase-client.js';
 import NavBar from '../components/NavBar.jsx';
+import ProjectHighlight from '../sections/ProjectHighlight.jsx';
+import ExperienceSection from '../sections/ExperienceSection.jsx';
 
 const ProjectPage = () => {
 
@@ -19,6 +21,10 @@ const ProjectPage = () => {
   }, []);*/
 
   useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
+  useEffect(() => {
     fetchProject(id);
   }, [id]);
 
@@ -34,14 +40,8 @@ const ProjectPage = () => {
   return (
     <>
       <NavBar/>
-      <div>
-        <h1>Project {currentProject.id}</h1>
-        <p>{currentProject.name}</p>
-        <p>{currentProject.mentions}</p>
-        <p>{currentProject.review}</p>
-        <p>{currentProject.publicationDate}</p>
-        <img src={currentProject.imgPath} alt={currentProject.name}/>
-      </div>
+      <ProjectHighlight name={currentProject.name}  date={currentProject.publicationDate} description={currentProject.description} imgPath={currentProject.imgPath}/>
+      <ExperienceSection/>
     </>
   )
 }

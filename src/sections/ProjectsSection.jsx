@@ -4,7 +4,7 @@ import TitleHeader from '../components/TitleHeader.jsx';
 
 const ProjectsSection = ({ projects }) => {
   return (
-    <section id="projects" className="flex-center section-padding">
+    <section id="projects" className="flex-center">
         <div className="w-full h-full md:px-10 px-5">
             <TitleHeader title="Works I've made" sub="⭐ Showcase of cool stuff"/>
             <div className="lg:columns-3 md:columns-2 columns-1 mt-16">

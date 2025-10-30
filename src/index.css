@@ -322,18 +322,22 @@ section {
   }
 }
 
-.work-highlight-layout {
+.work-highlight-layout, .project-highlight-layout {
   @apply relative z-10 xl:mt-20 mt-32 md:h-dvh h-[80vh] flex xl:items-center items-start justify-center;
 
-  .work-highlight-header {
+  .work-highlight-header, .project-highlight-header {
     @apply grid lg:grid-cols-2 grid-cols-1;
 
-    .work-highlight-title {
+    .work-highlight-title, .project-highlight-title {
       @apply flex flex-col justify-center md:w-full w-screen md:px-20 px-5;
     }
 
     .work-highlight-carousel {
       @apply flex flex-col gap-7;
+    }
+
+    .project-highlight-img-container {
+      @apply rounded-xl p-20 mb-5 break-inside-avoid-column
     }
   }
 }
