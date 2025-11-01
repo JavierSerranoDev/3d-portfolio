@@ -4,6 +4,7 @@ import supabase from '../js/supabase-client.js';
 import NavBar from '../components/NavBar.jsx';
 import ProjectHighlight from '../sections/ProjectHighlight.jsx';
 import ExperienceSection from '../sections/ExperienceSection.jsx';
+import Footer from '../sections/Footer.jsx';
 
 const ProjectPage = () => {
 
@@ -42,6 +43,7 @@ const ProjectPage = () => {
       <NavBar/>
       <ProjectHighlight name={currentProject.name}  date={currentProject.publicationDate} description={currentProject.description} imgPath={currentProject.imgPath}/>
       <ExperienceSection/>
+      <Footer/>
     </>
   )
 }
