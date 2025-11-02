@@ -10,6 +10,10 @@ const BlogPage = () => {
     const [posts, setPosts] = useState([]);
 
     useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
+    useEffect(() => {
         fetchProjects();
     }, []);
 

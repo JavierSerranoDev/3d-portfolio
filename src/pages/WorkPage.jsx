@@ -10,6 +10,10 @@ const WorkPage = () => {
   const [projects, setProjects] = useState([]);
 
   useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
+  useEffect(() => {
     fetchProjects();
   }, []);
 
