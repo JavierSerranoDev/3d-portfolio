@@ -14,11 +14,11 @@ const BlogPage = () => {
     }, []);
 
     useEffect(() => {
-        fetchProjects();
+        fetchPosts();
     }, []);
 
-    const fetchProjects = async () => {
-        const { data, error } = await supabase.from("projects").select("*");
+    const fetchPosts = async () => {
+        const { data, error } = await supabase.from("posts").select("*");
         if(error) {
             console.log("Error fetching: ", error);
         }else{

@@ -8,9 +8,9 @@ const BlogListSection = ({ posts }) => {
         <div className="w-full h-full md:px-10 px-5">
             <TitleHeader title="Posts I've made" sub="✍🏻 Showcase of stuff to learn from"/>
             <div className="columns-1 mt-16">
-                {posts.map(({ id, imgPath, name, description}, index) => (
+                {posts.map(({ id, imgPath, title, preview_text}, index) => (
                     <Link to={`/post/${id}`} key={index}>
-                        <PostGlowCard card={{ name, imgPath, description }}/>
+                        <PostGlowCard card={{ title, imgPath, preview_text }}/>
                     </Link>
                 ))}
             </div>

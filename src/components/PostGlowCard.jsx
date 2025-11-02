@@ -38,8 +38,8 @@ const PostGlowCard = ({ card, index }) => {
                 />
               </div>
             </div>
-            <p className="font-bold">{card.name}</p>
-            <p className="line-clamp-3 text-white-50 text-sm">{card.description}</p>
+            <p className="font-bold">{card.title}</p>
+            <p className="line-clamp-3 text-white-50 text-sm">{card.preview_text}</p>
           </div>
         : 
           <div className="flex items-center bg-gray-800 rounded-lg p-4 mt-2 mb-2 w-full">
@@ -51,8 +51,8 @@ const PostGlowCard = ({ card, index }) => {
               />
             </div>
             <div className="ml-4 lg:flex-1">
-              <p className="font-bold text-white">{card.name}</p>
-              <p className="text-gray-300 text-lg">{card.description}</p>
+              <p className="font-bold text-white">{card.title}</p>
+              <p className="text-gray-300 text-lg">{card.preview_text}</p>
             </div>
           </div>
         }
