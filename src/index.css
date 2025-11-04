@@ -128,7 +128,7 @@ section {
         @apply flex space-x-8;
 
         li {
-          @apply text-white-50 relative;
+          @apply text-white-50 relative ;
 
           span {
             @apply transition-colors duration-300 hover:text-white;
@@ -136,6 +136,30 @@ section {
 
           .underline {
             @apply absolute -bottom-1 left-0 w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full;
+          }
+        }
+      }
+    }
+
+    nav.mobile {
+      @apply items-center;
+
+      .mobile-menu {
+        @apply fixed top-[5rem] left-0 right-0 bottom-0;
+
+        .inner {
+          @apply relative z-2 flex flex-col items-center justify-center m-auto;
+
+          li {
+            @apply text-white-50 block relative text-2xl uppercase px-6 py-6 md:py-8;
+
+            span {
+              @apply transition-colors duration-300 hover:text-white;
+            }
+
+            .underline {
+              @apply absolute -bottom-1 left-0 w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full;
+            }
           }
         }
       }
