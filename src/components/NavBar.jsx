@@ -2,17 +2,14 @@ import { useEffect, useState } from 'react'
 import { navLinks } from '../constants/index.js'
 import { HashLink } from 'react-router-hash-link';
 import MenuSvg from '../svg/MenuSvg.jsx'
-import { HamburgerMenu } from './design/Header.jsx';
-import { useMediaQuery } from 'react-responsive';
 import MobileMenu from './MobileMenu.jsx';
 
 function NavBar() {
-    const isAboveMobileDevice = useMediaQuery({ query: '(min-width: 768px)' });
     const [scrolled, setScrolled] = useState(false);
     const [openNavigation, setOpenNavigation] = useState(false);
 
     useEffect(() => {
-        const handleScroll = () => {
+        const handleScroll = () => { 
             const isScrolled = window.scrollY > 10;
             setScrolled(isScrolled);
         }
@@ -21,6 +18,24 @@ function NavBar() {
 
         return () => window.removeEventListener('scroll', handleScroll);
     }, []);
+
+    useEffect(() => {
+    if (openNavigation) {
+        // Save scroll position
+        const scrollY = window.scrollY;
+        document.documentElement.style.setProperty("--scroll-y", `${scrollY}px`);
+        document.documentElement.classList.add("menu-open");
+    } else {
+        // Remove freeze and restore scroll WITHOUT forcing scrollTo(…)
+        const scrollY = document.documentElement.style.getPropertyValue("--scroll-y");
+        document.documentElement.classList.remove("menu-open");
+        requestAnimationFrame(() => {
+        window.scrollTo(0, parseInt(scrollY || "0"));
+        });
+    }
+    }, [openNavigation]);
+
+
 
     const toggleNavigation = () => {
         if(openNavigation) {
@@ -55,8 +70,7 @@ function NavBar() {
                 </ul>
             </nav>
             <nav className={`mobile ${openNavigation ? "flex" : "hidden"}`}>
-                <HamburgerMenu />
-                <MobileMenu navLinks={navLinks}/>
+                <MobileMenu navLinks={navLinks} handleOnClick={handleClick} openNavigation={openNavigation}/>
             </nav>
             <HashLink smooth to="/#contact" className="contact-btn group hidden lg:flex">
                 <div className="inner">

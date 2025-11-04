@@ -1,12 +1,16 @@
 import { HashLink } from 'react-router-hash-link';
+import MenuSvg from '../svg/MenuSvg.jsx'
 
-const MobileMenu = ({ navLinks }) => {
+const MobileMenu = ({ navLinks, handleOnClick, openNavigation }) => {
   return (
     <div className="mobile-menu">
-      <div className="inner">
+      <div className="mobile-menu-inner">
+        <button className="ml-auto lg:hidden px-3" onClick={handleOnClick}>
+                <MenuSvg openNavigation={openNavigation}/>
+            </button>
         <ul>
             {navLinks.map(({link, name}, index) => (
-              <li key={index}>
+              <li key={index} onClick={handleOnClick}>
                   {
                     <HashLink smooth to={`/${link}`}>
                         <span>{name}</span>
@@ -16,7 +20,7 @@ const MobileMenu = ({ navLinks }) => {
               </li>
             ))}
             <HashLink smooth to="/#contact" className="contact-btn mt-10">
-                <div className="inner">
+                <div className="inner" onClick={handleOnClick}>
                     <span>Contact me</span>
                 </div>
             </HashLink>
