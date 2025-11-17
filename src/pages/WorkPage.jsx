@@ -26,10 +26,18 @@ const WorkPage = () => {
     }
   }
 
+  const getWorkhighlightImages = () => {
+    if(projects.length > 0) {
+          return [];
+    } else {
+      return null;
+    }
+  }
+
   return (
     <>
       <NavBar/>
-      <WorkHighlight topProjectsImgPaths={["/images/project1.png", "/images/project2.png", "/images/project3.png"]}/>
+      <WorkHighlight topProjectsImgPaths={(projects.length > 0) ? [projects[0].header.media[0].absolute_url, projects[1].header.media[0].absolute_url, projects[2].header.media[0].absolute_url] : []}/>
       <ProjectsSection projects={projects}/>
       <Footer/>
     </>
