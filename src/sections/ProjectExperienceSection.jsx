@@ -19,23 +19,9 @@ const ProjectExperienceSection = ({ gradient, experiences }) => {
                 ease: 'power2.inOut',
                 scrollTrigger: {
                     trigger: card,
-                    start: 'top 80%"'
+                    start: 'top 80%'
                 }
             });
-        });
-        gsap.to('.timeline', {
-            transformOrigin: 'bottom bottom',
-            ease: 'power1.inOut',
-            scrollTrigger: {
-                trigger: '.timeline',
-                start: 'top center',
-                end: '70% center',
-                onUpdate: (self) => {
-                    gsap.to('.timeline', {
-                        scaleY: 1 - self.progress
-                    })
-                }
-            }
         });
         gsap.utils.toArray('.expText').forEach((text) => {
             gsap.from(text, {
@@ -49,7 +35,24 @@ const ProjectExperienceSection = ({ gradient, experiences }) => {
                 }
             });
         });
-    }, [])
+    }, []);
+
+    useGSAP(() => {
+        if (!experiences || experiences.length === 0) return;
+
+        gsap.to('.timeline', {
+            transformOrigin: 'bottom bottom',
+            ease: 'power1.inOut',
+            scrollTrigger: {
+                trigger: '.timeline',
+                start: 'top center',
+                end: '70% center',
+                onUpdate: (self) => {
+                    gsap.to('.timeline', { scaleY: 1 - self.progress });
+                }
+            }
+        });
+    }, [experiences])
 
   return (
     <div id="experience" className="w-full md:mt-40 mt-20 section-padding xl:px-0">
