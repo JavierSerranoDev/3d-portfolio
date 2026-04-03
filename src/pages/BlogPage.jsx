@@ -3,7 +3,6 @@ import NavBar from '../components/NavBar.jsx';
 import Footer from '../sections/Footer.jsx';
 import Blogger from '../sections/Blogger.jsx';
 import BlogListSection from '../sections/BlogListSection.jsx';
-import supabase from '../js/supabase-client.js';
 
 const BlogPage = () => {
 

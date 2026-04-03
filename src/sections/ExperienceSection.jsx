@@ -19,7 +19,7 @@ const ExperienceSection = () => {
                 ease: 'power2.inOut',
                 scrollTrigger: {
                     trigger: card,
-                    start: 'top 80%"'
+                    start: 'top 80%'
                 }
             });
         });

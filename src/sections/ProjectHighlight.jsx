@@ -2,7 +2,7 @@ import Carousel from '../components/Carousel.jsx';
 import { useGSAP } from '@gsap/react';
 import gsap from 'gsap';
 
-const ProjectHighlight = ({ name, date, description, imgPath }) => {
+const ProjectHighlight = ({ name, date, description, carousel }) => {
 
     useGSAP(() => {
         gsap.fromTo(
@@ -20,6 +20,17 @@ const ProjectHighlight = ({ name, date, description, imgPath }) => {
             }
         );
     });
+
+    const getCarouselImgPaths = () => {
+        const imgPaths = [];
+
+        for (let i = 0; i < carousel.media.length; i++){
+            if(carousel.media[i].type === "IMAGE")
+                imgPaths[i] = carousel.media[i].absolute_url;
+        }
+
+        return imgPaths;
+    }
 
   return (
     <section id="work-highlight" className="relative overflow-hidden">
@@ -40,7 +51,7 @@ const ProjectHighlight = ({ name, date, description, imgPath }) => {
                 </header>
                 {/*RIGHT: IMG CONTENT*/}
                 <div className="project-highlight-img-container">
-                    <img src={imgPath} alt={name}/>
+                    <Carousel images={(carousel && carousel.media) ? getCarouselImgPaths() : []}/>
                 </div>
             </div>
         </div>
