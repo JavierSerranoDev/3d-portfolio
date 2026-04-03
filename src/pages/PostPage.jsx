@@ -1,6 +1,5 @@
 import { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
-import supabase from '../js/supabase-client.js';
 import NavBar from '../components/NavBar.jsx';
 import Footer from '../sections/Footer.jsx';
 import DOMPurify from 'dompurify';

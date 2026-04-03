@@ -1,6 +1,5 @@
 import { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
-import supabase from '../js/supabase-client.js';
 import NavBar from '../components/NavBar.jsx';
 import ProjectHighlight from '../sections/ProjectHighlight.jsx';
 import ProjectExperienceSection from '../sections/ProjectExperienceSection.jsx';

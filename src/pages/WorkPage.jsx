@@ -1,5 +1,4 @@
 import { useEffect, useState } from 'react';
-import supabase from '../js/supabase-client.js';
 import NavBar from '../components/NavBar.jsx';
 import Footer from '../sections/Footer.jsx';
 import WorkHighlight from '../sections/WorkHighlight.jsx';
