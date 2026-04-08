@@ -54,23 +54,23 @@ const ShowcaseSection = () => {
                         <img src="/images/project1.png" alt="Ryde"/>
                     </div>
                     <div className="text-content">
-                        <h2>On-demand Rides Made Simple with a Powerful, User-Firnedly App called Ryde</h2>
-                        <p className="text-white-50 md:text-xl">An app built with React Native, Expo, & TailwindCSS for a fast, user-friendly experience.</p>
+                        <h2>ReCSaM - A Comprehensive Solution for Therapeutic Patient Documentation</h2>
+                        <p className="text-white-50 md:text-xl">An app built with Flutter, Flutterflow for fast iteration, and designed for a user-friendly experience.</p>
                     </div>
                 </div>
                 {/* RIGHT */}
                 <div className="project-list-wrapper overflow-hidden">
                     <div className="project" ref={project2Ref}>
-                        <div className="image-wrapper bg-[#ffefdb]">
+                        <div className="image-wrapper bg-[#ff0202]">
                             <img src="/images/project2.png" alt="Library Management Platform"/>
                         </div>
-                        <h2>Library Management Platform</h2>
+                        <h2>AXESS by Axe - Fun engament for concert participants</h2>
                     </div>
                     <div className="project" ref={project3Ref}>
-                        <div className="image-wrapper bg-[#ffe7db]">
+                        <div className="image-wrapper bg-[#8CBAA8]">
                             <img src="/images/project3.png" alt="YC Directory"/>
                         </div>
-                        <h2>YC Directory - A Startup Showcase App</h2>
+                        <h2>Your favorite songs, your favorite singer. Singing in the sky.</h2>
                     </div>
                 </div>
             </div>
