@@ -1,6 +1,6 @@
 import TitleHeader from '../components/TitleHeader';
 import GlowCard from '../components/GlowCard.jsx';
-import { expCards } from '../constants/index.js';
+import { expCards } from '../constants/experienceIndex.js';
 import gsap from 'gsap';
 import { useGSAP } from '@gsap/react';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
@@ -70,7 +70,7 @@ const ExperienceSection = () => {
                                 <div className="flex items-start">
                                     <div className="timeline-wrapper">
                                         <div className="timeline"/>
-                                        <div className="gradient-line w-1 h-full"/>
+                                        <div className="exp-gradient-line w-1 h-full"/>
                                     </div>
                                     <div className="expText flex xl:gap-20 md:gap-10 gap-5 relative z-20">
                                         <div className="timeline-logo">

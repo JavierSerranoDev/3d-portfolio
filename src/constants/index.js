@@ -41,37 +41,46 @@ const counterItems = [
 
 const logoIconsList = [
   {
-    imgPath: "/images/logos/company-logo-1.png",
+    imgPath: "/images/logos/customers/1-Cool-Nerdy-People-Logo.png",
   },
   {
-    imgPath: "/images/logos/company-logo-2.png",
+    imgPath: "/images/logos/customers/2-RCK-Logo.png",
   },
   {
-    imgPath: "/images/logos/company-logo-3.png",
+    imgPath: "/images/logos/customers/3-Anahuac-Logo.png",
   },
   {
-    imgPath: "/images/logos/company-logo-4.png",
+    imgPath: "/images/logos/customers/4-Modelo-Logo.png",
   },
   {
-    imgPath: "/images/logos/company-logo-5.png",
+    imgPath: "/images/logos/customers/5-Clijutey-Horizontal.png",
   },
   {
-    imgPath: "/images/logos/company-logo-6.png",
+    imgPath: "/images/logos/customers/6-Spotify-Logo.png",
   },
   {
-    imgPath: "/images/logos/company-logo-7.png",
+    imgPath: "/images/logos/customers/7-Sony-Music-Logo.png",
   },
   {
-    imgPath: "/images/logos/company-logo-8.png",
+    imgPath: "/images/logos/customers/8-GOB-YUC-Logo.png",
   },
   {
-    imgPath: "/images/logos/company-logo-9.png",
+    imgPath: "/images/logos/customers/9-Unilever-Logo.png",
   },
   {
-    imgPath: "/images/logos/company-logo-10.png",
+    imgPath: "/images/logos/customers/10-The-North-Face-Logo.png",
   },
   {
-    imgPath: "/images/logos/company-logo-11.png",
+    imgPath: "/images/logos/customers/11-Telesur-Logo.png",
+  },
+  {
+    imgPath: "/images/logos/customers/12-UPP-Logo.png",
+  },
+  {
+    imgPath: "/images/logos/customers/13-IYEM-Logo.png",
+  },
+  {
+    imgPath: "/images/logos/customers/14-Lawlers-BBQ-Logo.png",
   },
 ];
 
