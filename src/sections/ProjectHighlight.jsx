@@ -2,7 +2,7 @@ import Carousel from '../components/Carousel.jsx';
 import { useGSAP } from '@gsap/react';
 import gsap from 'gsap';
 
-const ProjectHighlight = ({ name, date, description, carousel }) => {
+const ProjectHighlight = ({ title, date, description, media }) => {
 
     useGSAP(() => {
         gsap.fromTo(
@@ -24,9 +24,9 @@ const ProjectHighlight = ({ name, date, description, carousel }) => {
     const getCarouselImgPaths = () => {
         const imgPaths = [];
 
-        for (let i = 0; i < carousel.media.length; i++){
-            if(carousel.media[i].type === "IMAGE")
-                imgPaths[i] = carousel.media[i].absolute_url;
+        for (let i = 0; i < media.length; i++){
+            if(media[i].type === "IMAGE")
+                imgPaths[i] = media[i].absolute_url;
         }
 
         return imgPaths;
@@ -43,7 +43,7 @@ const ProjectHighlight = ({ name, date, description, carousel }) => {
                 <header className="project-highlight-title">
                     <div className="flex flex-col gap-7">
                         <div className="title-text">
-                            <h1>{name}</h1>
+                            <h1>{title}</h1>
                         </div>
                         <p className='white font-bold md:text-xl relative z- 10 pointer-events-none'>{`Release date: ${date}`}</p>
                         <p className='text-white-50 md:text-xl relative z- 10 pointer-events-none'>{description}</p>
@@ -51,7 +51,7 @@ const ProjectHighlight = ({ name, date, description, carousel }) => {
                 </header>
                 {/*RIGHT: IMG CONTENT*/}
                 <div className="project-highlight-img-container">
-                    <Carousel images={(carousel && carousel.media) ? getCarouselImgPaths() : []}/>
+                    <Carousel images={(media && media.length > 0) ? getCarouselImgPaths() : []}/>
                 </div>
             </div>
         </div>

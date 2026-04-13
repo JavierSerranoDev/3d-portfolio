@@ -82,6 +82,9 @@ const logoIconsList = [
   {
     imgPath: "/images/logos/customers/14-Lawlers-BBQ-Logo.png",
   },
+  {
+    imgPath: "/images/logos/customers/15-University-of-Hull-Logo.png",
+  },
 ];
 
 const abilities = [
