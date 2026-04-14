@@ -41,7 +41,9 @@ const WorkHighlight = ({ topProjectsImgPaths }) => {
                 </header>
                 {/*RIGHT: CAROUSEL CONTENT*/}
                 <div className="work-highlight-carousel">
-                    <Carousel images={ topProjectsImgPaths } />
+                    {topProjectsImgPaths && topProjectsImgPaths.length > 0 && (
+                        <Carousel images={ topProjectsImgPaths } />
+                    )}
                 </div>
             </div>
         </div>

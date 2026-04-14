@@ -19,10 +19,9 @@ const ProjectPage = () => {
   return (
     <>
       <NavBar/>
-      <ProjectHighlight title={currentProject.title} date={currentProject.date} description={currentProject.description} media={currentProject.media}/>
-      <div dangerouslySetInnerHTML={{ __html: currentProject.html }} />      <ProjectExperienceSection
-        gradient={currentProject?.experience?.gradient ?? `linear-gradient(0deg, rgba(69, 222, 196, 0) 0%, #62e0ff 25%, #52aeff 37.51%, #fd5c79 62.83%, #6d45ce 92.91%)`}
-        experiences={currentProject?.experience?.experiences ?? []}
+      <ProjectHighlight title={currentProject.title} date={currentProject.date} description={currentProject.description} media={currentProject.media} html={currentProject.html}/>
+      <ProjectExperienceSection
+        tools={currentProject?.tools ?? []}
       />
       <Footer/>
     </>
