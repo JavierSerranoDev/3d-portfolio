@@ -43,7 +43,7 @@ const Hero = () => {
                                     <span className="wrapper">
                                         {words.map((word, index)=> (
                                             <span key={index} className="flex items-center md:gap-3 gap-1 pb-2">
-                                                <img src={`${base}${word.imgPath.replace(/^\//, '')}`} alt={word.text} className="xl:size-12 md:size-10 size-7 md:p-2 p-1 rounded-full bg-white-50"/>
+                                                <img src={word.imgPath} alt={word.text} className="xl:size-12 md:size-10 size-7 md:p-2 p-1 rounded-full bg-white-50"/>
                                                 <span>{word.text}</span>
                                             </span>
                                         ))}
