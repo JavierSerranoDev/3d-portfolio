@@ -48,7 +48,7 @@ const Contact = () => {
         />
         <div className="grid-12-cols mt-16">
           {/* Contact Form - Left Side */}
-          <div className="xl:col-span-5">
+          <div className="lg:col-span-5">
             <div className="flex-center card-border rounded-xl p-10">
               <form
                 ref={formRef}
@@ -109,9 +109,10 @@ const Contact = () => {
             </div>
           </div>
           {/* 3D Experience - Right Side */}
-          <div className="xl:col-span-7 min-h-96">
-            <div className="bg-[#cd7c2e] w-full h-full hover:cursor-grab rounded-3xl overflow-hidden">
+          <div className="lg:col-span-7 min-h-96">
+            <div className="relative bg-[#cd7c2e] w-full h-full hover:cursor-grab rounded-3xl overflow-hidden">
               <ContactExperience />
+              <div className="absolute inset-0 lg:hidden" style={{ zIndex: 10 }} />
             </div>
           </div>
         </div>

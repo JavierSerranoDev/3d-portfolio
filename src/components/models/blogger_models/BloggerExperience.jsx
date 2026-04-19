@@ -13,6 +13,7 @@ const BloggerExperience = () => {
     return (
         <Canvas camera={{position: [0, 0, 15], fov: 45}}>
             <OrbitControls
+                enabled={!isMobile}
                 enablePan={false}
                 enableZoom={!isTablet}
                 maxDistance={20}

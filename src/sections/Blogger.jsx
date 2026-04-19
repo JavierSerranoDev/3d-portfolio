@@ -45,6 +45,7 @@ const Blogger = () => {
                     <div className='hero-3d-layout'>
                         <BloggerExperience/>
                     </div>
+                    <div className='hero-3d-layout lg:hidden' style={{ zIndex: 10 }} />
                 </figure>
             </div>
         </section>

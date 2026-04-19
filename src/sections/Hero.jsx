@@ -62,6 +62,7 @@ const Hero = () => {
                     <div className='hero-3d-layout'>
                         <HeroExperience/>
                     </div>
+                    <div className='hero-3d-layout lg:hidden' style={{ zIndex: 10 }} />
                 </figure>
             </div>
             <ProfileSection/>
