@@ -24,7 +24,7 @@ const WorkHighlight = ({ topProjectsImgPaths }) => {
   return (
     <section id="work-highlight" className="relative overflow-hidden">
         <div className="absolute top-0 left-0 z-10">
-            <img src="/images/bg.png" alt="background"/>
+            <img src={`${import.meta.env.BASE_URL}images/bg.png`} alt="background"/>
         </div>
         <div className="work-highlight-layout">
             <div className="work-highlight-header">

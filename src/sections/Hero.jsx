@@ -6,6 +6,8 @@ import gsap from 'gsap';
 import AnimatedCounter from '../components/AnimatedCounter.jsx';
 import ProfileSection from './ProfileSection.jsx';
 
+const base = import.meta.env.BASE_URL;
+
 const Hero = () => {
 
     useGSAP(() => {
@@ -28,7 +30,7 @@ const Hero = () => {
     return(
         <section id="hero" className="relative overflow-hidden">
             <div className="absolute top-0 left-0 z-10">
-                <img src="/images/bg.png" alt="background"/>
+                <img src={`${base}images/bg.png`} alt="background"/>
             </div>
             <div className="hero-layout">
                 {/*LEFT: HERO CONTENT*/}
@@ -41,7 +43,7 @@ const Hero = () => {
                                     <span className="wrapper">
                                         {words.map((word, index)=> (
                                             <span key={index} className="flex items-center md:gap-3 gap-1 pb-2">
-                                                <img src={word.imgPath} alt={word.text} className="xl:size-12 md:size-10 size-7 md:p-2 p-1 rounded-full bg-white-50"/>
+                                                <img src={`${base}${word.imgPath.replace(/^\//, '')}`} alt={word.text} className="xl:size-12 md:size-10 size-7 md:p-2 p-1 rounded-full bg-white-50"/>
                                                 <span>{word.text}</span>
                                             </span>
                                         ))}
@@ -51,7 +53,7 @@ const Hero = () => {
                             <h1>into Real Projects</h1>
                             <h1>that Deliver Results</h1>
                         </div>
-                        <p className='text-white-50 md:text-xl relative z- 10 pointer-events-none'> Hi, I'm Javier, a developer based in Mexico with a passion for code.</p>
+                        <p className='text-white-50 md:text-xl relative z-10 pointer-events-none'> Hi, I'm Javier, a developer based in Mexico with a passion for code.</p>
                         <Button className="md:w-80 md:h-16 w-60 h-12" id="button" text="See my highlights"/>
                     </div>
                 </header>

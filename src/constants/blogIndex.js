@@ -17,7 +17,7 @@ const posts = [
             <p><strong>Step 2 — The Debug Messenger:</strong> Optional, but invaluable during development. This is the security guard of the art school — someone contracted specifically to tap you on the shoulder and say "you're doing that wrong" before it becomes a bigger problem.</p>
 
             <div style="height: 24rem; position: relative; border-radius: 0.75rem; overflow: hidden; margin-top: 2rem; margin-bottom: 2rem;">
-                <img src="/images/blogs/vulkan/vulkan-1.png" alt="Vulkan setup diagram" style="width: 100%; height: 100%; object-fit: contain; position: absolute; inset: 0;"/>
+                <img src="${import.meta.env.BASE_URL}images/blogs/vulkan/vulkan-1.png" alt="Vulkan setup diagram" style="width: 100%; height: 100%; object-fit: contain; position: absolute; inset: 0;"/>
             </div>
 
             <p><strong>Step 3 — The Window Surface:</strong> Before picking a GPU, we set up the surface we'll render to. In the analogy, this is the blank easel inside the gallery. We need to confirm our chosen artist can actually paint on this type of easel before hiring them.</p>
@@ -29,7 +29,7 @@ const posts = [
             <p><strong>Step 6 — The Swap Chain:</strong> This is the Gallery Manager and the Canvas Stockpile. It holds a collection of canvases (VkImages) and cycles them in and out. The Manager hands us a fresh canvas to paint on, and when we're done, takes it and places it on the easel for the public to see.</p>
 
             <div style="height: 24rem; position: relative; border-radius: 0.75rem; overflow: hidden; margin-top: 2rem; margin-bottom: 2rem;">
-                <img src="/images/blogs/vulkan/vulkan-2.png" alt="Swap chain and pipeline diagram" style="width: 100%; height: 100%; object-fit: contain; position: absolute; inset: 0;"/>
+                <img src="${import.meta.env.BASE_URL}images/blogs/vulkan/vulkan-2.png" alt="Swap chain and pipeline diagram" style="width: 100%; height: 100%; object-fit: contain; position: absolute; inset: 0;"/>
             </div>
 
             <p><strong>Step 7 — Image Views:</strong> A VkImage is raw data. An ImageView describes how to interpret it — like putting a specific frame or lens on a canvas that tells the artist: "treat this as a 2D color image."</p>
@@ -45,7 +45,7 @@ const posts = [
             <p><strong>Step 12 — Command Buffers:</strong> These are the To-Do Lists. We don't paint yet — we record the steps: "Begin rendering. Bind the pipeline. Draw a triangle. End rendering." We hand this list to the artist later.</p>
 
             <div style="height: 24rem; position: relative; border-radius: 0.75rem; overflow: hidden; margin-top: 2rem; margin-bottom: 2rem;">
-                <img src="/images/blogs/vulkan/vulkan-3.png" alt="Final Vulkan triangle render" style="width: 100%; height: 100%; object-fit: contain; position: absolute; inset: 0;"/>
+                <img src="${import.meta.env.BASE_URL}images/blogs/vulkan/vulkan-3.png" alt="Final Vulkan triangle render" style="width: 100%; height: 100%; object-fit: contain; position: absolute; inset: 0;"/>
             </div>
 
             <p><strong>Step 13 — Synchronization Objects:</strong> Semaphores and Fences are the Traffic Lights. They ensure we don't start painting on a canvas still being displayed (ImageAvailable), and we don't display a canvas that is half-painted (RenderFinished).</p>
@@ -60,22 +60,22 @@ const posts = [
         `,
         media : [
             {
-                "absolute_url" : "/images/blogs/vulkan/vulkan-header.png",
+                "absolute_url" : `${import.meta.env.BASE_URL}images/blogs/vulkan/vulkan-header.png`,
                 "type" : "IMAGE",
                 "orientation" : "LANDSCAPE"
             },
             {
-                "absolute_url" : "/images/blogs/vulkan/vulkan-1.png",
+                "absolute_url" : `${import.meta.env.BASE_URL}images/blogs/vulkan/vulkan-1.png`,
                 "type" : "IMAGE",
                 "orientation" : "LANDSCAPE"
             },
             {
-                "absolute_url" : "/images/blogs/vulkan/vulkan-2.png",
+                "absolute_url" : `${import.meta.env.BASE_URL}images/blogs/vulkan/vulkan-2.png`,
                 "type" : "IMAGE",
                 "orientation" : "LANDSCAPE"
             },
             {
-                "absolute_url" : "/images/blogs/vulkan/vulkan-3.png",
+                "absolute_url" : `${import.meta.env.BASE_URL}images/blogs/vulkan/vulkan-3.png`,
                 "type" : "IMAGE",
                 "orientation" : "LANDSCAPE"
             }
@@ -95,13 +95,13 @@ const posts = [
             <p>That was the destination. Getting there was another matter entirely.</p>
 
             <div style="height: 24rem; position: relative; border-radius: 0.75rem; overflow: hidden; margin-top: 2rem; margin-bottom: 2rem;">
-                <img src="/images/blogs/uk-student/uk-student-1.webp" alt="Across the Pond logo" style="width: 100%; height: 100%; object-fit: contain; position: absolute; inset: 0;"/>
+                <img src="${import.meta.env.BASE_URL}images/blogs/uk-student/uk-student-1.webp" alt="Across the Pond logo" style="width: 100%; height: 100%; object-fit: contain; position: absolute; inset: 0;"/>
             </div>
 
             <p><strong>Finding the way in — Across the Pond.</strong> Applying to a UK university as an international student from Mexico is not a straightforward process. That's where <a href="https://www.studyacrossthepond.com/" target="_blank" rel="noreferrer" style="color: #839cb5; text-decoration: underline;">Across the Pond</a> came in. They are a free student recruitment and advisory service that has been helping Latin American students navigate UK university applications since 2004, representing over 40 universities across Britain. Their team — many of whom have studied in the UK themselves — guided me through every step of the application, from choosing the right programme to preparing the supporting documents. Their acceptance rates at partner universities are notably high, and their personalised approach made the whole process feel far less overwhelming than it might have been otherwise.</p>
 
             <div style="height: 24rem; position: relative; border-radius: 0.75rem; overflow: hidden; margin-top: 2rem; margin-bottom: 2rem;">
-                <img src="/images/blogs/uk-student/uk-student-2.png" alt="FIDERH logo" style="width: 100%; height: 100%; object-fit: contain; position: absolute; inset: 0;"/>
+                <img src="${import.meta.env.BASE_URL}images/blogs/uk-student/uk-student-2.png" alt="FIDERH logo" style="width: 100%; height: 100%; object-fit: contain; position: absolute; inset: 0;"/>
             </div>
 
             <p><strong>Funding it — FIDERH.</strong> Studying abroad is expensive, and the UK is no exception. For Mexican students, the best option available is <a href="https://www.fiderh.org.mx" target="_blank" rel="noreferrer" style="color: #839cb5; text-decoration: underline;">FIDERH</a> — the Fondo para el Desarrollo de Recursos Humanos, a federal trust managed by the Bank of Mexico that provides affordable loans to Mexican students pursuing postgraduate studies either in Mexico or abroad. The terms are genuinely generous: no administrative costs, no payments and no interest while you are studying, resources delivered in foreign currency, and repayments starting one year after graduation in Mexican pesos. There are even interest discounts if you repay on time or return to work in a Mexican university. For anyone from Mexico considering postgraduate studies abroad, FIDERH is the first place to look.</p>
@@ -109,7 +109,7 @@ const posts = [
             <p>With the application in, the funding approved, and the visa sorted, there was only one thing left: actually getting there.</p>
 
             <div style="height: 24rem; position: relative; border-radius: 0.75rem; overflow: hidden; margin-top: 2rem; margin-bottom: 2rem;">
-                <img src="/images/blogs/uk-student/uk-student-3.webp" alt="University of Hull logo" style="width: 100%; height: 100%; object-fit: contain; position: absolute; inset: 0;"/>
+                <img src="${import.meta.env.BASE_URL}images/blogs/uk-student/uk-student-3.webp" alt="University of Hull logo" style="width: 100%; height: 100%; object-fit: contain; position: absolute; inset: 0;"/>
             </div>
 
             <p><strong>Landing in the UK.</strong> I flew into Manchester in September 2025, arriving just one week before classes started. Anyone who has been to Mérida, Yucatán knows what the weather is like — hot, humid, and relentlessly sunny for most of the year, with temperatures regularly above 35°C. Stepping off the plane into a grey, 14°C English September was a culture shock of its own. The cold doesn't just hit you physically; it hits you mentally. You realise very quickly that the layers of clothing you thought were enough are not nearly enough, and that "mild" means something completely different in the UK than it does in Yucatán.</p>
@@ -119,7 +119,7 @@ const posts = [
             <p><strong>Life on campus — game jams and societies.</strong> One of the first things I did after settling in was join the university's video game development society. It has been one of the best decisions of the year. The society organises regular events, workshops, and most importantly — game jams. I have participated in multiple jams organised by the university since arriving, collaborating with students from different disciplines and backgrounds to build games under tight deadlines.</p>
 
             <div style="height: 24rem; position: relative; border-radius: 0.75rem; overflow: hidden; margin-top: 2rem; margin-bottom: 2rem;">
-                <img src="/images/blogs/uk-student/uk-student-4.jpeg" alt="Presenting at the 3Thing Game Jam at University of Hull" style="width: 100%; height: 100%; object-fit: contain; position: absolute; inset: 0;"/>
+                <img src="${import.meta.env.BASE_URL}images/blogs/uk-student/uk-student-4.jpeg" alt="Presenting at the 3Thing Game Jam at University of Hull" style="width: 100%; height: 100%; object-fit: contain; position: absolute; inset: 0;"/>
             </div>
 
             <p>One of the highlights so far was presenting a game with my team at the <strong>3Thing Game Jam</strong> hosted by the university — a jam where every game must be built around three randomly assigned themes. Standing up in front of an audience to present something you built in 48 hours with a team you barely knew a week earlier is one of those experiences that reminds you why you got into game development in the first place.</p>
@@ -128,27 +128,27 @@ const posts = [
         `,
         media : [
             {
-                "absolute_url" : "/images/blogs/uk-student/uk-student-header.jpeg",
+                "absolute_url" : `${import.meta.env.BASE_URL}images/blogs/uk-student/uk-student-header.jpeg`,
                 "type" : "IMAGE",
                 "orientation" : "LANDSCAPE"
             },
             {
-                "absolute_url" : "/images/blogs/uk-student/uk-student-1.webp",
+                "absolute_url" : `${import.meta.env.BASE_URL}images/blogs/uk-student/uk-student-1.webp`,
                 "type" : "IMAGE",
                 "orientation" : "LANDSCAPE"
             },
             {
-                "absolute_url" : "/images/blogs/uk-student/uk-student-2.png",
+                "absolute_url" : `${import.meta.env.BASE_URL}images/blogs/uk-student/uk-student-2.png`,
                 "type" : "IMAGE",
                 "orientation" : "LANDSCAPE"
             },
             {
-                "absolute_url" : "/images/blogs/uk-student/uk-student-3.webp",
+                "absolute_url" : `${import.meta.env.BASE_URL}images/blogs/uk-student/uk-student-3.webp`,
                 "type" : "IMAGE",
                 "orientation" : "LANDSCAPE"
             },
             {
-                "absolute_url" : "/images/blogs/uk-student/uk-student-4.jpeg",
+                "absolute_url" : `${import.meta.env.BASE_URL}images/blogs/uk-student/uk-student-4.jpeg`,
                 "type" : "IMAGE",
                 "orientation" : "LANDSCAPE"
             }
@@ -166,7 +166,7 @@ const posts = [
             <p>The games industry in the Yucatán region was small and still finding its footing. Developers with a formal software engineering background who were actively working in game development were rare enough that it turned heads. That combination — software engineer by training, game developer by practice — is what opened the door I never expected to walk through.</p>
 
             <div style="height: 24rem; position: relative; border-radius: 0.75rem; overflow: hidden; margin-top: 2rem; margin-bottom: 2rem;">
-                <img src="/images/blogs/teacher/teacher-1.jpg" alt="Teaching at Universidad Modelo" style="width: 100%; height: 100%; object-fit: contain; position: absolute; inset: 0;"/>
+                <img src="${import.meta.env.BASE_URL}images/blogs/teacher/teacher-1.jpg" alt="Teaching at Universidad Modelo" style="width: 100%; height: 100%; object-fit: contain; position: absolute; inset: 0;"/>
             </div>
 
             <p><strong>Universidad Modelo — the first classroom.</strong> In August 2019, I was offered a teaching position at <a href="https://www.unimodelo.edu.mx/merida/licenciaturas/diseno-interactivo-merida" target="_blank" rel="noreferrer" style="color: #839cb5; text-decoration: underline;">Universidad Modelo</a> for their BDes in Interactive Design — a programme focused on digital creativity, user experience, and interactive media. The modules assigned to me were Design of Educational Video Games, Augmented Reality, and Design of Objects of Digital Learning.</p>
@@ -176,7 +176,7 @@ const posts = [
             <p>The struggle was real. Standing in front of a classroom for the first time and realising that knowing something and being able to explain it clearly to someone else are two very different skills is a humbling experience. But it also forces you to understand your own knowledge more deeply. You cannot bluff your way through a student's question the way you might in a meeting. You have to actually know.</p>
 
             <div style="height: 24rem; position: relative; border-radius: 0.75rem; overflow: hidden; margin-top: 2rem; margin-bottom: 2rem;">
-                <img src="/images/blogs/teacher/teacher-2.jpg" alt="Workshop and student projects" style="width: 100%; height: 100%; object-fit: contain; position: absolute; inset: 0;"/>
+                <img src="${import.meta.env.BASE_URL}images/blogs/teacher/teacher-2.jpg" alt="Workshop and student projects" style="width: 100%; height: 100%; object-fit: contain; position: absolute; inset: 0;"/>
             </div>
 
             <p><strong>What teaching gave me.</strong> What I didn't expect was how much I would get out of it. Teaching forced me to keep up with new technologies in a way that purely industry work sometimes doesn't — students ask about the latest tools, the newest trends, the things they see on YouTube and in game jams. Staying relevant in the classroom kept me sharp in the studio as well.</p>
@@ -188,7 +188,7 @@ const posts = [
             <p><strong>Universidad Anáhuac Mayab — the next chapter.</strong> In August 2022 I joined the faculty at <a href="https://merida.anahuac.mx/licenciaturas/ingenieria-y-ciencias-exactas/ingenieria-en-animacion-digital" target="_blank" rel="noreferrer" style="color: #839cb5; text-decoration: underline;">Universidad Anáhuac Mayab</a> to teach for their BSc in Digital Animation Engineering — a more technically demanding programme where I taught Game Engines I, Game Engines II, Programming for Games, and the Practicum for Video Games module, in which students simulate the workflow of a real game studio following SCRUM processes.</p>
 
             <div style="height: 24rem; position: relative; border-radius: 0.75rem; overflow: hidden; margin-top: 2rem; margin-bottom: 2rem;">
-                <img src="/images/blogs/teacher/teacher-3.jpg" alt="Student exposition at Anáhuac Mayab" style="width: 100%; height: 100%; object-fit: contain; position: absolute; inset: 0;"/>
+                <img src="${import.meta.env.BASE_URL}images/blogs/teacher/teacher-3.jpg" alt="Student exposition at Anáhuac Mayab" style="width: 100%; height: 100%; object-fit: contain; position: absolute; inset: 0;"/>
             </div>
 
             <p>One of the initiatives I am most proud of during that time was organising an exposition with industry professionals — bringing developers, studio leads, and creatives into the university to share their experiences with students directly. Creating those kinds of environments, where education meets industry, is something I care deeply about.</p>
@@ -199,22 +199,22 @@ const posts = [
         `,
         media : [
             {
-                "absolute_url" : "/images/blogs/teacher/teacher-header.avif",
+                "absolute_url" : `${import.meta.env.BASE_URL}images/blogs/teacher/teacher-header.avif`,
                 "type" : "IMAGE",
                 "orientation" : "LANDSCAPE"
             },
             {
-                "absolute_url" : "/images/blogs/teacher/teacher-1.jpg",
+                "absolute_url" : `${import.meta.env.BASE_URL}images/blogs/teacher/teacher-1.jpg`,
                 "type" : "IMAGE",
                 "orientation" : "LANDSCAPE"
             },
             {
-                "absolute_url" : "/images/blogs/teacher/teacher-2.jpg",
+                "absolute_url" : `${import.meta.env.BASE_URL}images/blogs/teacher/teacher-2.jpg`,
                 "type" : "IMAGE",
                 "orientation" : "LANDSCAPE"
             },
             {
-                "absolute_url" : "/images/blogs/teacher/teacher-3.jpg",
+                "absolute_url" : `${import.meta.env.BASE_URL}images/blogs/teacher/teacher-3.jpg`,
                 "type" : "IMAGE",
                 "orientation" : "LANDSCAPE"
             }
@@ -230,13 +230,13 @@ const posts = [
             <p>Every career has a starting point. Mine was the Faculty of Mathematics at the <strong>Universidad Autónoma de Yucatán</strong> (UADY), where I studied for my BSc in Software Engineering. UADY is one of the most respected public universities in south-eastern Mexico, and the Faculty of Mathematics has a long tradition of producing engineers who go on to build real things. It was there that I first encountered the idea that software could be more than enterprise systems and databases — that it could be used to create experiences, worlds, and games.</p>
 
             <div style="height: 24rem; position: relative; border-radius: 0.75rem; overflow: hidden; margin-top: 2rem; margin-bottom: 2rem;">
-                <img src="/images/blogs/start/start-1.svg" alt="Universidad Autónoma de Yucatán logo" style="width: 100%; height: 100%; object-fit: contain; position: absolute; inset: 0;"/>
+                <img src="${import.meta.env.BASE_URL}images/blogs/start/start-1.svg" alt="Universidad Autónoma de Yucatán logo" style="width: 100%; height: 100%; object-fit: contain; position: absolute; inset: 0;"/>
             </div>
 
             <p>The Yucatán region in 2016 was not exactly a hotbed of game development. The industry existed in pockets — a handful of studios, a growing community of enthusiasts, and very few formal pathways for someone who wanted to build games professionally. What made the difference for me was landing a job at <strong>RCK Games</strong> shortly after graduating — a video game and interactive experience development studio based in Mérida that would become the place where I grew, not just as a developer, but as a professional.</p>
 
             <div style="height: 24rem; position: relative; border-radius: 0.75rem; overflow: hidden; margin-top: 2rem; margin-bottom: 2rem;">
-                <img src="/images/blogs/start/start-2.png" alt="RCK Games logo" style="width: 100%; height: 100%; object-fit: contain; position: absolute; inset: 0;"/>
+                <img src="${import.meta.env.BASE_URL}images/blogs/start/start-2.png" alt="RCK Games logo" style="width: 100%; height: 100%; object-fit: contain; position: absolute; inset: 0;"/>
             </div>
 
             <p>I joined RCK Games as a Junior Software Developer in 2016. At the time, being a software engineer who was actively applying that background to game and interactive development was an unusual combination in the region. Most developers came from design or arts backgrounds. Having formal software engineering training meant I could bring architectural thinking, REST API integration, and scalable systems to projects that previously hadn't had that foundation. Over the years I grew through the ranks — from Junior to Senior Software Developer, and eventually to Software Development Team Lead — taking on increasingly complex projects, mentoring developers, building teams, and working directly with clients across a range of industries.</p>
@@ -246,7 +246,7 @@ const posts = [
             <p><strong>Connecting with the broader Mexican game dev community.</strong> In 2019, I travelled to Mexico City for what was at the time one of the first major gatherings of game developers in the country — an event hosted at <a href="https://hyperbeard.com" target="_blank" rel="noreferrer" style="color: #839cb5; text-decoration: underline;">HyperBeard</a>, the largest mobile game developer and publisher in Mexico. Founded in 2014, HyperBeard had built an extraordinary track record — over 30 games published across the App Store and Google Play, with titles like KleptoCats, Tsuki Adventure, and Adorable Home reaching millions of players worldwide. For a developer from Mérida, being in a room with the people behind Mexico's biggest game studio was a reminder of how much was possible from within this country.</p>
 
             <div style="height: 24rem; position: relative; border-radius: 0.75rem; overflow: hidden; margin-top: 2rem; margin-bottom: 2rem;">
-                <img src="/images/blogs/start/start-3.jpg" alt="At HyperBeard Games, Mexico City, 2019" style="width: 100%; height: 100%; object-fit: contain; position: absolute; inset: 0;"/>
+                <img src="${import.meta.env.BASE_URL}images/blogs/start/start-3.jpg" alt="At HyperBeard Games, Mexico City, 2019" style="width: 100%; height: 100%; object-fit: contain; position: absolute; inset: 0;"/>
             </div>
 
             <p>The Mexican game development scene has a particular character to it. It is scattered geographically, scrappy by necessity, and driven almost entirely by people who love games enough to build them despite limited infrastructure and investment. Meeting developers from across the country in 2019 — comparing notes, sharing war stories, talking about tools and techniques — was energising in a way that is hard to describe. It made the work feel less isolated.</p>
@@ -259,22 +259,22 @@ const posts = [
         `,
         media : [
             {
-                "absolute_url" : "/images/blogs/start/start-header.avif",
+                "absolute_url" : `${import.meta.env.BASE_URL}images/blogs/start/start-header.avif`,
                 "type" : "IMAGE",
                 "orientation" : "LANDSCAPE"
             },
             {
-                "absolute_url" : "/images/blogs/start/start-1.svg",
+                "absolute_url" : `${import.meta.env.BASE_URL}images/blogs/start/start-1.svg`,
                 "type" : "IMAGE",
                 "orientation" : "LANDSCAPE"
             },
             {
-                "absolute_url" : "/images/blogs/start/start-2.png",
+                "absolute_url" : `${import.meta.env.BASE_URL}images/blogs/start/start-2.png`,
                 "type" : "IMAGE",
                 "orientation" : "LANDSCAPE"
             },
             {
-                "absolute_url" : "/images/blogs/start/start-3.jpg",
+                "absolute_url" : `${import.meta.env.BASE_URL}images/blogs/start/start-3.jpg`,
                 "type" : "IMAGE",
                 "orientation" : "LANDSCAPE"
             }

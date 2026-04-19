@@ -51,7 +51,7 @@ const ShowcaseSection = () => {
                 {/* LEFT */}
                 <div className="first-project-wrapper" ref={project1Ref}>
                     <div className="image-wrapper">
-                        <img src="/images/project1.png" alt="Ryde"/>
+                        <img src={`${import.meta.env.BASE_URL}images/project1.png`} alt="Ryde"/>
                     </div>
                     <div className="text-content">
                         <h2>ReCSaM - A Comprehensive Solution for Therapeutic Patient Documentation</h2>
@@ -62,13 +62,13 @@ const ShowcaseSection = () => {
                 <div className="project-list-wrapper overflow-hidden">
                     <div className="project" ref={project2Ref}>
                         <div className="image-wrapper bg-[#ff0202]">
-                            <img src="/images/project2.png" alt="Library Management Platform"/>
+                            <img src={`${import.meta.env.BASE_URL}images/project2.png`} alt="Library Management Platform"/>
                         </div>
                         <h2>AXESS by Axe - Fun engament for concert participants</h2>
                     </div>
                     <div className="project" ref={project3Ref}>
                         <div className="image-wrapper bg-[#8CBAA8]">
-                            <img src="/images/project3.png" alt="YC Directory"/>
+                            <img src={`${import.meta.env.BASE_URL}images/project3.png`} alt="YC Directory"/>
                         </div>
                         <h2>Your favorite songs, your favorite singer. Singing in the sky.</h2>
                     </div>

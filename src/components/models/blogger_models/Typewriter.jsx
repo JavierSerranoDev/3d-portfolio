@@ -12,7 +12,7 @@ import React from 'react'
 import { useGLTF } from '@react-three/drei'
 
 export function Typewriter(props) {
-  const { nodes, materials } = useGLTF('/models/typewriter-transformed.glb')
+  const { nodes, materials } = useGLTF(`${import.meta.env.BASE_URL}models/typewriter-transformed.glb`)
   return (
     <group {...props} dispose={null}>
       <mesh geometry={nodes.Cube001__0.geometry} material={materials['Cube.001__0']} position={[-1.444, 0.189, 0.526]} rotation={[-Math.PI / 2, 0, 0]} scale={0.346} />
@@ -22,4 +22,4 @@ export function Typewriter(props) {
   )
 }
 
-useGLTF.preload('/models/typewriter-transformed.glb')
+useGLTF.preload(`${import.meta.env.BASE_URL}models/typewriter-transformed.glb`)

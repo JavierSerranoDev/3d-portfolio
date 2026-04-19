@@ -16,7 +16,9 @@ const router = createBrowserRouter([
     {path:"/blog", element: <BlogPage/>},
     {path:"/post/:id", element:<PostPage/>},
     {path:"*", element:<NotFoundPage/>}
-]);
+], {
+    basename: "/3d-portfolio"
+});
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>

@@ -10,38 +10,38 @@ const projects = [
                 <div>ReCSaM was approached as a solution to streamline the management of patient records and session notes for therapists at the clinic. The use of a microphone to take notes and database allowed for efficient data collection and storage.</div>
                 <div>I worked along with the client in a "UI/UX prototype" phase to gather feedback and iterate on the design before moving forward with development. Using Figma as a tool I designed the application UI/UX, creating wireframes and prototypes to ensure that the app was user-friendly and met the client's needs and expectations.</div>
                 <div style="height: 24rem; position: relative; border-radius: 0.75rem; overflow: hidden; margin-top: 2rem; margin-bottom: 2rem;">
-                    <img src="/images/projects/recsam/recsam_header.png" alt="ReCSaM header image" style="width: 100%; height: 100%; object-fit: contain; position: absolute; inset: 0;"/>
+                    <img src="${import.meta.env.BASE_URL}images/projects/recsam/recsam_header.png" alt="ReCSaM header image" style="width: 100%; height: 100%; object-fit: contain; position: absolute; inset: 0;"/>
                 </div>
                 <div>Once the design was finalized, I moved on to the development phase and researched the technical requirements. I decided on using Flutterflow/Flutter because it provided a fast and efficient way to build the application with a modern UI/UX. Fast was the key factor in choosing this technology.</div>
                 <div>For the subscription feature, I decided to use Firebase Authentication along with Firestore for data storage and Stripe for payment processing.</div>
                 <div style="height: 24rem; position: relative; border-radius: 0.75rem; overflow: hidden; margin-top: 2rem; margin-bottom: 2rem;">
-                    <img src="/images/projects/recsam/recsam_1_horizontal.png" alt="ReCSaM header image" style="width: 100%; height: 100%; object-fit: contain; position: absolute; inset: 0;"/>
+                    <img src="${import.meta.env.BASE_URL}images/projects/recsam/recsam_1_horizontal.png" alt="ReCSaM header image" style="width: 100%; height: 100%; object-fit: contain; position: absolute; inset: 0;"/>
                 </div>
                 <div>I wrote a cohesive manual for the application, ensuring that users could easily navigate and utilize all features effectively and to work with my team. Speaking of which, I hired team members to assist with the development and testing phases. After some intial meetings, I worked as a SCRUM Master and Project Manager.</div>
                 <div>I created the tasks, along with their acceptance criteria. Gave them clear instructions and deadlines to the team, and thus we were able to start the testing phase.</div>
                 <div style="height: 24rem; position: relative; border-radius: 0.75rem; overflow: hidden; margin-top: 2rem; margin-bottom: 2rem;">
-                    <img src="/images/projects/recsam/recsam_2_horizontal.png" alt="ReCSaM header image" style="width: 100%; height: 100%; object-fit: contain; position: absolute; inset: 0;"/>
+                    <img src="${import.meta.env.BASE_URL}images/projects/recsam/recsam_2_horizontal.png" alt="ReCSaM header image" style="width: 100%; height: 100%; object-fit: contain; position: absolute; inset: 0;"/>
                 </div>
                 <div>After testing the app and fixing the bugs, we were able to launch the app on the Play Store. I was also in charge of managing the deployment process and the admin accounts for the client as well as writing the proper documentation. It was a great achievement for the team and a great experience for me as a developer and project manager. We also created a webpage for terms and conditions and privacy policies for the app, as well as the Stripe page for receving payments.</div>
             `,
         media : [
             {
-                "absolute_url" : "/images/projects/recsam/recsam_header.png",
+                "absolute_url" : `${import.meta.env.BASE_URL}images/projects/recsam/recsam_header.png`,
                 "type" : "IMAGE",
                 "orientation" : "LANDSCAPE"
             },
             {
-                "absolute_url" : "/images/projects/recsam/recsam_1_horizontal.png",
+                "absolute_url" : `${import.meta.env.BASE_URL}images/projects/recsam/recsam_1_horizontal.png`,
                 "type" : "IMAGE",
                 "orientation" : "LANDSCAPE"
             },
                         {
-                "absolute_url" : "/images/projects/recsam/recsam_2_horizontal.png",
+                "absolute_url" : `${import.meta.env.BASE_URL}images/projects/recsam/recsam_2_horizontal.png`,
                 "type" : "IMAGE",
                 "orientation" : "LANDSCAPE"
             },
                         {
-                "absolute_url" : "/images/projects/recsam/recsam_3_horizontal.png",
+                "absolute_url" : `${import.meta.env.BASE_URL}images/projects/recsam/recsam_3_horizontal.png`,
                 "type" : "IMAGE",
                 "orientation" : "LANDSCAPE"
             }
@@ -108,48 +108,48 @@ const projects = [
                 <div>Vicente Fernandez is a beloved singer in Mexico that passed away some years ago. His family, along with Sony Music Latin and Spotify, had an idea to celebraty his anniversaty.</div>
                 <div>CoolNerdyPeople approached them with the idea for an AR web application to showcase the singer on the sky, singing mexico's favorite songs while rose petals fall from the sky.</div>
                 <div style="height: 24rem; position: relative; border-radius: 0.75rem; overflow: hidden; margin-top: 2rem; margin-bottom: 2rem;">
-                    <img src="/images/projects/chente/chente_1.webp" alt="ReCSaM header image" style="width: 100%; height: 100%; object-fit: contain; position: absolute; inset: 0;"/>
+                    <img src="${import.meta.env.BASE_URL}images/projects/chente/chente_1.webp" alt="ReCSaM header image" style="width: 100%; height: 100%; object-fit: contain; position: absolute; inset: 0;"/>
                 </div>
                 <div>Along with the software development we had to gather information on what tools we could use to develop this project. It was a fast paced development cycle, with a lot of trial and error, client changes and techinical difficulties due to the short time and learning of new tools.</div>
                 <div>But these types of cycles is where we thrive at RCK Games, we get to learnt 8th Wall's Web AR techonology, the use of 3D applied with three.js, and their particle system. As well as the use of videos in AR space.</div>
                 <div style="height: 24rem; position: relative; border-radius: 0.75rem; overflow: hidden; margin-top: 2rem; margin-bottom: 2rem;">
-                    <img src="/images/projects/chente/chente_2.webp" alt="ReCSaM header image" style="width: 100%; height: 100%; object-fit: contain; position: absolute; inset: 0;"/>
+                    <img src="${import.meta.env.BASE_URL}images/projects/chente/chente_2.webp" alt="ReCSaM header image" style="width: 100%; height: 100%; object-fit: contain; position: absolute; inset: 0;"/>
                 </div>
                 <div>I worked really close with the design team due to requesting them changes, what we had learn and what we needed to complete the project on time, i.e. the green screen videos for the frames that were used in front of the videos on the AR space.</div>
                 <div>Like always I reviewed software development tasks and backed my team when needed, giving proper solutions and explanations to clients on meetings.</div>
                 <div style="height: 24rem; position: relative; border-radius: 0.75rem; overflow: hidden; margin-top: 2rem; margin-bottom: 2rem;">
-                    <img src="/images/projects/chente/chente_3.webp" alt="ReCSaM header image" style="width: 100%; height: 100%; object-fit: contain; position: absolute; inset: 0;"/>
+                    <img src="${import.meta.env.BASE_URL}images/projects/chente/chente_3.webp" alt="ReCSaM header image" style="width: 100%; height: 100%; object-fit: contain; position: absolute; inset: 0;"/>
                 </div>
                 <div>After testing the app and fixing the bugs, we were able to launch the web page with a successful campaign that got some news coverage.</div>
             `,
         media : [
             {
-                "absolute_url" : "/images/projects/chente/chente_header.png",
+                "absolute_url" : `${import.meta.env.BASE_URL}images/projects/chente/chente_header.png`,
                 "type" : "IMAGE",
                 "orientation" : "LANDSCAPE"
             },
                         {
-                "absolute_url" : "/images/projects/chente/chente_1.webp",
+                "absolute_url" : `${import.meta.env.BASE_URL}images/projects/chente/chente_1.webp`,
                 "type" : "IMAGE",
                 "orientation" : "LANDSCAPE"
             },
                         {
-                "absolute_url" : "/images/projects/chente/chente_2.webp",
+                "absolute_url" : `${import.meta.env.BASE_URL}images/projects/chente/chente_2.webp`,
                 "type" : "IMAGE",
                 "orientation" : "LANDSCAPE"
             },
             {
-                "absolute_url" : "/images/projects/chente/chente_3.webp",
+                "absolute_url" : `${import.meta.env.BASE_URL}images/projects/chente/chente_3.webp`,
                 "type" : "IMAGE",
                 "orientation" : "LANDSCAPE"
             },
                         {
-                "absolute_url" : "/images/projects/chente/chente_4.webp",
+                "absolute_url" : `${import.meta.env.BASE_URL}images/projects/chente/chente_4.webp`,
                 "type" : "IMAGE",
                 "orientation" : "LANDSCAPE"
             },
                         {
-                "absolute_url" : "/videos/projects/chente/chente_video.mov",
+                "absolute_url" : `${import.meta.env.BASE_URL}videos/projects/chente/chente_video.mov`,
                 "type" : "VIDEO",
                 "orientation" : "LANDSCAPE"
             }
@@ -190,37 +190,37 @@ const projects = [
                 <div>The Yucatán i6 Congress is the largest technology and innovation event in southeastern Mexico, organized by Anáhuac Mayab University in conjunction with the state government. It focuses on areas such as artificial intelligence, the aerospace sector, the metaverse, cybersecurity, fintech, and entrepreneurship, attracting thousands of attendees, speakers, and creators.</div>
                 <div>RCK Games was approached to work on an app for the event, where attendants could registered themselves on keynotes along with the generation of QR code tickets, see the events schedules and get information of the general event along with a map of the venue.</div>
                 <div style="height: 24rem; position: relative; border-radius: 0.75rem; overflow: hidden; margin-top: 2rem; margin-bottom: 2rem;">
-                    <img src="/images/projects/yucatan_i6/yucatani6_1.png" alt="ReCSaM header image" style="width: 100%; height: 100%; object-fit: contain; position: absolute; inset: 0;"/>
+                    <img src="${import.meta.env.BASE_URL}images/projects/yucatan_i6/yucatani6_1.png" alt="ReCSaM header image" style="width: 100%; height: 100%; object-fit: contain; position: absolute; inset: 0;"/>
                 </div>
                 <div>Due to our experience and use of Unity's UI/UX system we used it to create a the app in a fast paced development cycle. This was not our first project of this kind, so we already had a well organized work pipeline developed alongside me, our backend developer, our project manager and the UI/UX team from previous project when we were only four members of the team.</div>
                 <div>Thus now with the help of my team, that by this time they were ready for making these kinds of projects following our pipeline and standards we started the project's front end and middleware, while the backend development started using Laravel. Assets were rapidly being worked on too.</div>
                 <div style="height: 24rem; position: relative; border-radius: 0.75rem; overflow: hidden; margin-top: 2rem; margin-bottom: 2rem;">
-                    <img src="/images/projects/yucatan_i6/yucatani6_2.png" alt="ReCSaM header image" style="width: 100%; height: 100%; object-fit: contain; position: absolute; inset: 0;"/>
+                    <img src="${import.meta.env.BASE_URL}images/projects/yucatan_i6/yucatani6_2.png" alt="ReCSaM header image" style="width: 100%; height: 100%; object-fit: contain; position: absolute; inset: 0;"/>
                 </div>
                 <div>The development cycle of this app reflected the refinement we had at RCK Games after some years of developing applications and games. There were not many issues either with the project, client meetings or anything else. IT was just a good project to work on.</div>
                 <div style="height: 24rem; position: relative; border-radius: 0.75rem; overflow: hidden; margin-top: 2rem; margin-bottom: 2rem;">
-                    <img src="/images/projects/yucatan_i6/yucatani6_3.png" alt="ReCSaM header image" style="width: 100%; height: 100%; object-fit: contain; position: absolute; inset: 0;"/>
+                    <img src="${import.meta.env.BASE_URL}images/projects/yucatan_i6/yucatani6_3.png" alt="ReCSaM header image" style="width: 100%; height: 100%; object-fit: contain; position: absolute; inset: 0;"/>
                 </div>
                 <div>After testing the app and fixing the bugs, we were able to launch the app with a successful campaign for a proper event at the city that got some news coverage.</div>
             `,
         media : [
             {
-                "absolute_url" : "/images/projects/yucatan_i6/yucatani6_header.png",
+                "absolute_url" : `${import.meta.env.BASE_URL}images/projects/yucatan_i6/yucatani6_header.png`,
                 "type" : "IMAGE",
                 "orientation" : "LANDSCAPE"
             },
                         {
-                "absolute_url" : "/images/projects/yucatan_i6/yucatani6_1.png",
+                "absolute_url" : `${import.meta.env.BASE_URL}images/projects/yucatan_i6/yucatani6_1.png`,
                 "type" : "IMAGE",
                 "orientation" : "LANDSCAPE"
             },
                         {
-                "absolute_url" : "/images/projects/yucatan_i6/yucatani6_2.png",
+                "absolute_url" : `${import.meta.env.BASE_URL}images/projects/yucatan_i6/yucatani6_2.png`,
                 "type" : "IMAGE",
                 "orientation" : "LANDSCAPE"
             },
                         {
-                "absolute_url" : "/images/projects/yucatan_i6/yucatani6_3.png",
+                "absolute_url" : `${import.meta.env.BASE_URL}images/projects/yucatan_i6/yucatani6_3.png`,
                 "type" : "IMAGE",
                 "orientation" : "LANDSCAPE"
             }
@@ -261,43 +261,43 @@ const projects = [
                 <div>North Face was doing a advertising campaign promoting "clothes for the end of the world". The campaign was called "The Global Warming Series". They developed along with some designers clothes for different natural disasters that could be happeninig to the planet if issues on global warming were not tackled.</div>
                 <div>They approached CoolNerdyPeople, and along with RCK Games, wanted us to create a web page that would feature these designs with their 3D models rendered on the web-page and feature a presentation of the planet's enviorments and destruction. Also the 3D models will have some points of interest that if they were clicked they will show in the UI a text box explaning a featuring of the suit.</div>
                 <div style="height: 24rem; position: relative; border-radius: 0.75rem; overflow: hidden; margin-top: 2rem; margin-bottom: 2rem;">
-                    <img src="/images/projects/north_face/northface_1.webp" alt="ReCSaM header image" style="width: 100%; height: 100%; object-fit: contain; position: absolute; inset: 0;"/>
+                    <img src="${import.meta.env.BASE_URL}images/projects/north_face/northface_1.webp" alt="ReCSaM header image" style="width: 100%; height: 100%; object-fit: contain; position: absolute; inset: 0;"/>
                 </div>
                 <div>My team already had experience when doing some web development, but due to time constrains I decided to go for Unity development fot WebGL becuase that was the engine we have worked with the most. There was no time to properly learn about 3D web develepment yet.</div>
                 <div>With was in these internal meetings with the team of CoolNerdyPeople where I had to defend the use of the tools at hand, they completly understanded my points that I was able to get across. Thus, we worked on a fully functional interactive simulation using Unity WebGL player that would run on a React web page.</div>
                 <div style="height: 24rem; position: relative; border-radius: 0.75rem; overflow: hidden; margin-top: 2rem; margin-bottom: 2rem;">
-                    <img src="/images/projects/north_face/northface_2.webp" alt="ReCSaM header image" style="width: 100%; height: 100%; object-fit: contain; position: absolute; inset: 0;"/>
+                    <img src="${import.meta.env.BASE_URL}images/projects/north_face/northface_2.webp" alt="ReCSaM header image" style="width: 100%; height: 100%; object-fit: contain; position: absolute; inset: 0;"/>
                 </div>
                 <div>All the assets were given to us by the North Face team and CoolNerdyPeople. We just had to work out the implementation of the UI/UX and make the necessary scripts of managers in C# to get the experience working.</div>
                 <div>After that, we worked on a React web page to feature the Unity Player along side some other components and deplyed it. As a team lead I was responsable of code reviewing and make sure the team followed RCK Games conventions that I wrote for the company.</div>
                 <div style="height: 24rem; position: relative; border-radius: 0.75rem; overflow: hidden; margin-top: 2rem; margin-bottom: 2rem;">
-                    <img src="/images/projects/north_face/northface_3.webp" alt="ReCSaM header image" style="width: 100%; height: 100%; object-fit: contain; position: absolute; inset: 0;"/>
+                    <img src="${import.meta.env.BASE_URL}images/projects/north_face/northface_3.webp" alt="ReCSaM header image" style="width: 100%; height: 100%; object-fit: contain; position: absolute; inset: 0;"/>
                 </div>
                 <div>It was a fun experience to get to work with an international brand, and a cool conpcept like this.</div>
             `,
         media : [
             {
-                "absolute_url" : "/images/projects/north_face/northface_header.png",
+                "absolute_url" : `${import.meta.env.BASE_URL}images/projects/north_face/northface_header.png`,
                 "type" : "IMAGE",
                 "orientation" : "LANDSCAPE"
             },
                         {
-                "absolute_url" : "/images/projects/north_face/northface_1.webp",
+                "absolute_url" : `${import.meta.env.BASE_URL}images/projects/north_face/northface_1.webp`,
                 "type" : "IMAGE",
                 "orientation" : "LANDSCAPE"
             },
                         {
-                "absolute_url" : "/images/projects/north_face/northface_2.webp",
+                "absolute_url" : `${import.meta.env.BASE_URL}images/projects/north_face/northface_2.webp`,
                 "type" : "IMAGE",
                 "orientation" : "LANDSCAPE"
             },
                         {
-                "absolute_url" : "/images/projects/north_face/northface_3.webp",
+                "absolute_url" : `${import.meta.env.BASE_URL}images/projects/north_face/northface_3.webp`,
                 "type" : "IMAGE",
                 "orientation" : "LANDSCAPE"
             },
             {
-                "absolute_url" : "/images/projects/north_face/northface_4.webp",
+                "absolute_url" : `${import.meta.env.BASE_URL}images/projects/north_face/northface_4.webp`,
                 "type" : "IMAGE",
                 "orientation" : "LANDSCAPE"
             }
@@ -341,37 +341,37 @@ const projects = [
                 <div>At the time, Roblox was looking for game studios that could make a game with Roblox Studio. We pitched ideas for games within RCK Games searching for a game that would peak their interests. After a while we decided to feature "Jurassic Tycoon", a tycoon game where a player can create their own version of a dinosaur park.</div>
                 <div>It featured three different enviorments, thus we worked alongside a 3D enviorment artists that had experience with Unity and Git to help us developed this game. I was responsable for the core mechanics and to help me team out learninig a new tool: Roblox Studio.</div>
                 <div style="height: 24rem; position: relative; border-radius: 0.75rem; overflow: hidden; margin-top: 2rem; margin-bottom: 2rem;">
-                    <img src="/images/projects/jurassic_tycoon/jurassictycoon_1.webp" alt="ReCSaM header image" style="width: 100%; height: 100%; object-fit: contain; position: absolute; inset: 0;"/>
+                    <img src="${import.meta.env.BASE_URL}images/projects/jurassic_tycoon/jurassictycoon_1.webp" alt="ReCSaM header image" style="width: 100%; height: 100%; object-fit: contain; position: absolute; inset: 0;"/>
                 </div>
                 <div>We managed to feature a Zoo-like tycoon experience where the player could have a vehicle and drive around the enviorments searching for fossils to get cash and eventually start their creation for their zoo.</div>
                 <div>In order to enter new places the player needed to explore quite a bit of the other enviorments so progression was needed in the game.</div>
                 <div style="height: 24rem; position: relative; border-radius: 0.75rem; overflow: hidden; margin-top: 2rem; margin-bottom: 2rem;">
-                    <img src="/images/projects/jurassic_tycoon/jurassictycoon_2.webp" alt="ReCSaM header image" style="width: 100%; height: 100%; object-fit: contain; position: absolute; inset: 0;"/>
+                    <img src="${import.meta.env.BASE_URL}images/projects/jurassic_tycoon/jurassictycoon_2.webp" alt="ReCSaM header image" style="width: 100%; height: 100%; object-fit: contain; position: absolute; inset: 0;"/>
                 </div>
                 <div>We developed a lot of sections of the game and leart to code in Lua for this project. As a team lead I waas in charge of reviewing the code, which was more based on following good coding principles and practices because Lua was also new for me. And review and assign tasks that were developed along side my project manager.</div>
                 <div style="height: 24rem; position: relative; border-radius: 0.75rem; overflow: hidden; margin-top: 2rem; margin-bottom: 2rem;">
-                    <img src="/images/projects/jurassic_tycoon/jurassictycoon_3.webp" alt="ReCSaM header image" style="width: 100%; height: 100%; object-fit: contain; position: absolute; inset: 0;"/>
+                    <img src="${import.meta.env.BASE_URL}images/projects/jurassic_tycoon/jurassictycoon_3.webp" alt="ReCSaM header image" style="width: 100%; height: 100%; object-fit: contain; position: absolute; inset: 0;"/>
                 </div>
                 <div>Sadly, the game was cancelled due to the latinamerican Roblox team that reached to us cancelled the plans and investment.</div>
             `,
         media : [
             {
-                "absolute_url" : "/images/projects/jurassic_tycoon/jurassictycoon_header.png",
+                "absolute_url" : `${import.meta.env.BASE_URL}images/projects/jurassic_tycoon/jurassictycoon_header.png`,
                 "type" : "IMAGE",
                 "orientation" : "LANDSCAPE"
             },
                         {
-                "absolute_url" : "/images/projects/jurassic_tycoon/jurassictycoon_1.webp",
+                "absolute_url" : `${import.meta.env.BASE_URL}images/projects/jurassic_tycoon/jurassictycoon_1.webp`,
                 "type" : "IMAGE",
                 "orientation" : "LANDSCAPE"
             },
                         {
-                "absolute_url" : "/images/projects/jurassic_tycoon/jurassictycoon_2.webp",
+                "absolute_url" : `${import.meta.env.BASE_URL}images/projects/jurassic_tycoon/jurassictycoon_2.webp`,
                 "type" : "IMAGE",
                 "orientation" : "LANDSCAPE"
             },
             {
-                "absolute_url" : "/images/projects/jurassic_tycoon/jurassictycoon_3.webp",
+                "absolute_url" : `${import.meta.env.BASE_URL}images/projects/jurassic_tycoon/jurassictycoon_3.webp`,
                 "type" : "IMAGE",
                 "orientation" : "LANDSCAPE"
             }
@@ -405,38 +405,38 @@ const projects = [
                 <div>Univeler's Axe dehodorant brand (named Lynx in several other countries) was organizing a concert in Mexico named "AXE CEREMONIA". They approached CoolNerdyPeople with an idea of making a virtual version of the venue where the players can interact, play games and earn in-game currecny to then exchange it for virtual or real prices at the concert.</div>
                 <div>CoolNerdyPeople then approached RCK Games to develop this game. At the time, we didn't had a coding team aside from me and our backend programmer and by the scale of the project we needed more team members. I was in charge of findging and interviewing these candidates. I picked the ones I believed were the most qualified and with the abilities that we were going to need.</div>
                 <div style="height: 24rem; position: relative; border-radius: 0.75rem; overflow: hidden; margin-top: 2rem; margin-bottom: 2rem;">
-                    <img src="/images/projects/axess_by_axe/axess_1.png" alt="ReCSaM header image" style="width: 100%; height: 100%; object-fit: contain; position: absolute; inset: 0;"/>
+                    <img src="${import.meta.env.BASE_URL}images/projects/axess_by_axe/axess_1.png" alt="ReCSaM header image" style="width: 100%; height: 100%; object-fit: contain; position: absolute; inset: 0;"/>
                 </div>
                 <div>We needed what I like to call a "fixer" and a "detailist", the former is a programmer that dwelves more in complex problems but lacks some game feel finesse and can struggle with following conventions, while the detailist have a good eye for those "game feel" details and thrieves in finding them and applying them. Both can be agreat team while pair programming so I choose programmers that featured this skills. Things I learnt while being the only client-side developer at RCK Games and during the time we had more team members.</div>
                 <div>This is one of the projects I have the most pride, becuase the time constrain was only of three months before the concert started their final preparations and we managed to deliver it in 3 and half months. While not being able to finish on time, many things where to take in consideration: there was no actual game design, just ideas in those three months we needed to decide what mini-games to feature on the map of the venue; implement the 2D and 3D assets that were being also made during those three months; learn and test the networking aspect of the game; feature avatar creation and edition, online store, QR creation, backend for administration of products, API consumption and many more features.</div>
                 <div style="height: 24rem; position: relative; border-radius: 0.75rem; overflow: hidden; margin-top: 2rem; margin-bottom: 2rem;">
-                    <img src="/images/projects/axess_by_axe/axess_2.png" alt="ReCSaM header image" style="width: 100%; height: 100%; object-fit: contain; position: absolute; inset: 0;"/>
+                    <img src="${import.meta.env.BASE_URL}images/projects/axess_by_axe/axess_2.png" alt="ReCSaM header image" style="width: 100%; height: 100%; object-fit: contain; position: absolute; inset: 0;"/>
                 </div>
                 <div>We used Unity for developing this game and with some external recommendation use the plug-in of "Game Creator 2" but because the team had more experience coding than using the in-engine features of the plug-in we decided to not use it for more complicated features like the networking solution, we use Photon for that and while the plug-in featured it we were too slow and I had to take the decision on how to approach this issue.</div>
                 <div>It was an arduous work, and the fact that we only took 2 weeks more than needed was a testament of our hard work: it was a recently formed team of junior developers tat I had to review their code, teach them our conventions and processes and feature heavy solution-making and ideation for the game's code as well as the game's design. Again, there was almost nothing.</div>
                 <div style="height: 24rem; position: relative; border-radius: 0.75rem; overflow: hidden; margin-top: 2rem; margin-bottom: 2rem;">
-                    <img src="/images/projects/axess_by_axe/axess_3.png" alt="ReCSaM header image" style="width: 100%; height: 100%; object-fit: contain; position: absolute; inset: 0;"/>
+                    <img src="${import.meta.env.BASE_URL}images/projects/axess_by_axe/axess_3.png" alt="ReCSaM header image" style="width: 100%; height: 100%; object-fit: contain; position: absolute; inset: 0;"/>
                 </div>
                 <div>I had to push and use all my experience making apps that feature share, QR code generation and core software engieneering and Unity concepts. But we did managed to get it done on time for the concert. The game was featured in some advertisements with content creators and Univeler's AXE Mexico social media posts.</div>
             `,
         media : [
             {
-                "absolute_url" : "/images/projects/axess_by_axe/axess_header.png",
+                "absolute_url" : `${import.meta.env.BASE_URL}images/projects/axess_by_axe/axess_header.png`,
                 "type" : "IMAGE",
                 "orientation" : "LANDSCAPE"
             },
                         {
-                "absolute_url" : "/images/projects/axess_by_axe/axess_1.png",
+                "absolute_url" : `${import.meta.env.BASE_URL}images/projects/axess_by_axe/axess_1.png`,
                 "type" : "IMAGE",
                 "orientation" : "LANDSCAPE"
             },
                         {
-                "absolute_url" : "/images/projects/axess_by_axe/axess_2.png",
+                "absolute_url" : `${import.meta.env.BASE_URL}images/projects/axess_by_axe/axess_2.png`,
                 "type" : "IMAGE",
                 "orientation" : "LANDSCAPE"
             },
                         {
-                "absolute_url" : "/images/projects/axess_by_axe/axess_3.png",
+                "absolute_url" : `${import.meta.env.BASE_URL}images/projects/axess_by_axe/axess_3.png`,
                 "type" : "IMAGE",
                 "orientation" : "LANDSCAPE"
             }
@@ -482,38 +482,38 @@ const projects = [
                 <div>Telesur is a local and multiplatform news broadcaster that is part of the Telesur group, offering news, streaming, podcasts and social media featured mostly in the Yucatan peninsula. They are the biggest local source in the region. So when they approached RCK Games to develop an app for them we gladly accepted.</div>
                 <div>The client have their requirements plus some ideas of how the UI/UX would look, sadly their ideas were focused more on web UI/UX than on a app. RCK Games' designer worked hard to deliver a good wireframe design plus core concepts that were used later. On the backend we used Laravel and alongside our backend developer we both worked on the design for the API calling and created the documentation and templates of what future works will be done with.</div>
                 <div style="height: 24rem; position: relative; border-radius: 0.75rem; overflow: hidden; margin-top: 2rem; margin-bottom: 2rem;">
-                    <img src="/images/projects/telesur/telesur_1.png" alt="ReCSaM header image" style="width: 100%; height: 100%; object-fit: contain; position: absolute; inset: 0;"/>
+                    <img src="${import.meta.env.BASE_URL}images/projects/telesur/telesur_1.png" alt="ReCSaM header image" style="width: 100%; height: 100%; object-fit: contain; position: absolute; inset: 0;"/>
                 </div>
                 <div>I was already the only client-side developer at the time and the software team lead, my team consisted of me and our backend developer. It was decided that we would work with Unity to develop the app/ In this case I had to research about push notifications services, and share links in order to get the desired funcitonallity. We used DialyMotion streaming to stream the news videos on the app.</div>
                 <div>This was a fun experience for me, because it was my first time working alone on a client-side application, and I did everything I could on that: created organization structures for our scenes in Unity, created documentation of good practices and code conventions, created a Framework inside Unity to help ease and create these types of projects using Unity's UI System.</div>
                 <div style="height: 24rem; position: relative; border-radius: 0.75rem; overflow: hidden; margin-top: 2rem; margin-bottom: 2rem;">
-                    <img src="/images/projects/telesur/telesur_2.png" alt="ReCSaM header image" style="width: 100%; height: 100%; object-fit: contain; position: absolute; inset: 0;"/>
+                    <img src="${import.meta.env.BASE_URL}images/projects/telesur/telesur_2.png" alt="ReCSaM header image" style="width: 100%; height: 100%; object-fit: contain; position: absolute; inset: 0;"/>
                 </div>
                 <div>With this project, it was the first time I was confident in my abilities as a programmer and used my experience to approach not only this project but future projects.</div>
                 <div>We got the push notifications to work as weel as deep linking for the share links, it was a really rich experience and work.</div>
                 <div style="height: 24rem; position: relative; border-radius: 0.75rem; overflow: hidden; margin-top: 2rem; margin-bottom: 2rem;">
-                    <img src="/images/projects/telesur/telesur_3.png" alt="ReCSaM header image" style="width: 100%; height: 100%; object-fit: contain; position: absolute; inset: 0;"/>
+                    <img src="${import.meta.env.BASE_URL}images/projects/telesur/telesur_3.png" alt="ReCSaM header image" style="width: 100%; height: 100%; object-fit: contain; position: absolute; inset: 0;"/>
                 </div>
                 <div>The app launched succesfully and got updates later down the line, mostly visual upgrades.</div>
             `,
         media : [
             {
-                "absolute_url" : "/images/projects/telesur/telesur_header.png",
+                "absolute_url" : `${import.meta.env.BASE_URL}images/projects/telesur/telesur_header.png`,
                 "type" : "IMAGE",
                 "orientation" : "LANDSCAPE"
             },
                         {
-                "absolute_url" : "/images/projects/telesur/telesur_1.png",
+                "absolute_url" : `${import.meta.env.BASE_URL}images/projects/telesur/telesur_1.png`,
                 "type" : "IMAGE",
                 "orientation" : "LANDSCAPE"
             },
                         {
-                "absolute_url" : "/images/projects/telesur/telesur_2.png",
+                "absolute_url" : `${import.meta.env.BASE_URL}images/projects/telesur/telesur_2.png`,
                 "type" : "IMAGE",
                 "orientation" : "LANDSCAPE"
             },
                         {
-                "absolute_url" : "/images/projects/telesur/telesur_3.png",
+                "absolute_url" : `${import.meta.env.BASE_URL}images/projects/telesur/telesur_3.png`,
                 "type" : "IMAGE",
                 "orientation" : "LANDSCAPE"
             }
@@ -555,53 +555,53 @@ const projects = [
                 <div>Catforce Arena was a Nintendo 3DS game for the Nintendo eShop. It was developed during the COVID pandemic, but the conception stages were before that. The game was a simple top-down arena shooter were enemies would spawn, and you unlocked waepons to rescue the other cats from evil dog aliens, four worlds with three levels per world, four bosses and a time-attack mode were implemented.</div>
                 <div>RCK Games got their hands on a 3DS Development Kit and the objective was simple: Create a small game that will be launched on the eShop. At the time I became the sole software developer for RCK Games so the team was really small: one programmer (me) and two artists, along side the CEO and the Project Manager.</div>
                 <div style="height: 24rem; position: relative; border-radius: 0.75rem; overflow: hidden; margin-top: 2rem; margin-bottom: 2rem;">
-                    <img src="/images/projects/catforce/catforce_1.png" alt="ReCSaM header image" style="width: 100%; height: 100%; object-fit: contain; position: absolute; inset: 0;"/>
+                    <img src="${import.meta.env.BASE_URL}images/projects/catforce/catforce_1.png" alt="ReCSaM header image" style="width: 100%; height: 100%; object-fit: contain; position: absolute; inset: 0;"/>
                 </div>
                 <div>This was one of the best experiences I had so far, becuase I got my hands on a 3DS use for development, we had to get our certfied Nintendo Accounts in order to get the proper packages that Unity needed to build for the device, read documentation on how to build and the limitations of the hardware. The only version supported at the time was Unity 5 even though better version of the game engine were already available at the time.</div>
                 <div>One funny story was our experiments on the limitations of the hardware, were we only load a scene with a big sprite to see what happens, it froze the device. To work with those hardware limitations was no joke. Sound, visual assets and more needed to be tailor made for the hardware.</div>
                 <div style="height: 24rem; position: relative; border-radius: 0.75rem; overflow: hidden; margin-top: 2rem; margin-bottom: 2rem;">
-                    <img src="/images/projects/catforce/catforce_2.png" alt="ReCSaM header image" style="width: 100%; height: 100%; object-fit: contain; position: absolute; inset: 0;"/>
+                    <img src="${import.meta.env.BASE_URL}images/projects/catforce/catforce_2.png" alt="ReCSaM header image" style="width: 100%; height: 100%; object-fit: contain; position: absolute; inset: 0;"/>
                 </div>
                 <div>As time went on, COVID started, and we started to work from home. In those days the bosses were the sections that took the most time s core mechanics and basic enemies were already implemented. I learnt a lot about finite state machines.</div>
                 <div>We used a plug-in for Unity called TopDown Engine by MoreMountains, on a developer's conference in Mexico City we featured a demo of the game and the developer of MoreMountains, Renaud Forestié, congratulated me on running his plug-in on such a strict device. This was of course before the pandemic started, one of the few travels that the whole RCK Games team did.</div>
                 <div style="height: 24rem; position: relative; border-radius: 0.75rem; overflow: hidden; margin-top: 2rem; margin-bottom: 2rem;">
-                    <img src="/images/projects/catforce/catforce_3.png" alt="ReCSaM header image" style="width: 100%; height: 100%; object-fit: contain; position: absolute; inset: 0;"/>
+                    <img src="${import.meta.env.BASE_URL}images/projects/catforce/catforce_3.png" alt="ReCSaM header image" style="width: 100%; height: 100%; object-fit: contain; position: absolute; inset: 0;"/>
                 </div>
                 <div>Sadly, and I say this with all my heart, the game wasn't able to be published because by the time, even though we finished, our team couldn't get to publish it on time, Nintendo already moved on from the eShop in the 3DS. Nevertheless, this is one of my favorite experiences as a game developer.</div>
             `,
         media : [
             {
-                "absolute_url" : "/images/projects/catforce/catforce_header.png",
+                "absolute_url" : `${import.meta.env.BASE_URL}images/projects/catforce/catforce_header.png`,
                 "type" : "IMAGE",
                 "orientation" : "LANDSCAPE"
             },
                         {
-                "absolute_url" : "/images/projects/catforce/catforce_1.png",
+                "absolute_url" : `${import.meta.env.BASE_URL}images/projects/catforce/catforce_1.png`,
                 "type" : "IMAGE",
                 "orientation" : "LANDSCAPE"
             },
                         {
-                "absolute_url" : "/images/projects/catforce/catforce_2.png",
+                "absolute_url" : `${import.meta.env.BASE_URL}images/projects/catforce/catforce_2.png`,
                 "type" : "IMAGE",
                 "orientation" : "LANDSCAPE"
             },
             {
-                "absolute_url" : "/images/projects/catforce/catforce_3.png",
+                "absolute_url" : `${import.meta.env.BASE_URL}images/projects/catforce/catforce_3.png`,
                 "type" : "IMAGE",
                 "orientation" : "LANDSCAPE"
             },
                         {
-                "absolute_url" : "/images/projects/catforce/catforce_4.png",
+                "absolute_url" : `${import.meta.env.BASE_URL}images/projects/catforce/catforce_4.png`,
                 "type" : "IMAGE",
                 "orientation" : "LANDSCAPE"
             },
                         {
-                "absolute_url" : "/videos/projects/catforce/catforce_video_1.mp4",
+                "absolute_url" : `${import.meta.env.BASE_URL}videos/projects/catforce/catforce_video_1.mp4`,
                 "type" : "VIDEO",
                 "orientation" : "LANDSCAPE"
             },
                         {
-                "absolute_url" : "/videos/projects/catforce/catforce_video_2.mp4",
+                "absolute_url" : `${import.meta.env.BASE_URL}videos/projects/catforce/catforce_video_2.mp4`,
                 "type" : "VIDEO",
                 "orientation" : "LANDSCAPE"
             }
@@ -636,38 +636,38 @@ const projects = [
                 <div>The UPP is a private university located in Merida, Yucatan, Mexico. They had a problem that needed solving: Their students were not attending to extra-curricular events like sports competition or cultural festivals. Thus they approached RCK Games for a solution, we developed and idea of gamified the assistance of the students to those events.</div>
                 <div>The idea was simple enough, inspired by the, at the time, craze for gameification we develoed an experience-based system in were a student could earn experience points when assisting to those events. The events would appear on a list on the app, and then if a student wanted to go they "selected" the event and get an assistance QR Code. Then a QR reader would read the QR at the event to get the points. With this points the student could exchange for virtual avatar images or university merchandise.</div>
                 <div style="height: 24rem; position: relative; border-radius: 0.75rem; overflow: hidden; margin-top: 2rem; margin-bottom: 2rem;">
-                    <img src="/images/projects/upp_adventures/uppadventures_1.jpg" alt="ReCSaM header image" style="width: 100%; height: 100%; object-fit: contain; position: absolute; inset: 0;"/>
+                    <img src="${import.meta.env.BASE_URL}images/projects/upp_adventures/uppadventures_1.jpg" alt="ReCSaM header image" style="width: 100%; height: 100%; object-fit: contain; position: absolute; inset: 0;"/>
                 </div>
                 <div>The idea was a success, an after creating the client's requirements we started developing the app. We decided to work with Unity as we had experience with it, also the advantage for a small studio was that Unity was one of the game engines that had Android and iOS compability when stuff like React Native or FLutter was not that popular.</div>
                 <div>We also started working with a backend developer at RCK Games, and I get to learn how to create, design and call request of consumption for APIs becuase we needed those in order for the client to work.</div>
                 <div style="height: 24rem; position: relative; border-radius: 0.75rem; overflow: hidden; margin-top: 2rem; margin-bottom: 2rem;">
-                    <img src="/images/projects/upp_adventures/uppadventures_2.jpg" alt="ReCSaM header image" style="width: 100%; height: 100%; object-fit: contain; position: absolute; inset: 0;"/>
+                    <img src="${import.meta.env.BASE_URL}images/projects/upp_adventures/uppadventures_2.jpg" alt="ReCSaM header image" style="width: 100%; height: 100%; object-fit: contain; position: absolute; inset: 0;"/>
                 </div>
                 <div>The launch of the app was a success with the UPP working with us to create the events and do promotions inside of the school. This was an important moment for the RCK Games team as this was our first success at creating an app for a client.</div>
                 <div>The app got updated after that with a 2.0 version that improved Quality of Life and better management and upgraded visuals to a more clean design.</div>
                 <div style="height: 24rem; position: relative; border-radius: 0.75rem; overflow: hidden; margin-top: 2rem; margin-bottom: 2rem;">
-                    <img src="/images/projects/upp_adventures/uppadventures_3.jpg" alt="ReCSaM header image" style="width: 100%; height: 100%; object-fit: contain; position: absolute; inset: 0;"/>
+                    <img src="${import.meta.env.BASE_URL}images/projects/upp_adventures/uppadventures_3.jpg" alt="ReCSaM header image" style="width: 100%; height: 100%; object-fit: contain; position: absolute; inset: 0;"/>
                 </div>
                 <div>At the time I was still a junior developer but this was one of the projects where I got to learn a lot.</div>
             `,
         media : [
             {
-                "absolute_url" : "/images/projects/upp_adventures/uppadventures_header.png",
+                "absolute_url" : `${import.meta.env.BASE_URL}images/projects/upp_adventures/uppadventures_header.png`,
                 "type" : "IMAGE",
                 "orientation" : "LANDSCAPE"
             },
                         {
-                "absolute_url" : "/images/projects/upp_adventures/uppadventures_1.jpg",
+                "absolute_url" : `${import.meta.env.BASE_URL}images/projects/upp_adventures/uppadventures_1.jpg`,
                 "type" : "IMAGE",
                 "orientation" : "LANDSCAPE"
             },
                         {
-                "absolute_url" : "/images/projects/upp_adventures/uppadventures_2.jpg",
+                "absolute_url" : `${import.meta.env.BASE_URL}images/projects/upp_adventures/uppadventures_2.jpg`,
                 "type" : "IMAGE",
                 "orientation" : "LANDSCAPE"
             },
             {
-                "absolute_url" : "/images/projects/upp_adventures/uppadventures_3.jpg",
+                "absolute_url" : `${import.meta.env.BASE_URL}images/projects/upp_adventures/uppadventures_3.jpg`,
                 "type" : "IMAGE",
                 "orientation" : "LANDSCAPE"
             }
@@ -706,38 +706,38 @@ const projects = [
                 <div>Campamento DV was a great start up developed by RCK Games alongside the IYEM (Emprendeourship Institute of Yucatan), as they were finding a way to implement game development into their circle of emprendeourship at a state level. RCK Games already had good relationship with them as we previously worked alongside the city of Merida's goverment at the time.</div>
                 <div>Alongside another game studio, Megalixir Games, the team created Campamento DV was a camp for game development. We organized keynotes from developers all around the country, created events and courses on the weekends for people that are interested in Game Development to start their journey into it.</div>
                 <div style="height: 24rem; position: relative; border-radius: 0.75rem; overflow: hidden; margin-top: 2rem; margin-bottom: 2rem;">
-                    <img src="/images/projects/campamento_dv/campamentodv_1.png" alt="ReCSaM header image" style="width: 100%; height: 100%; object-fit: contain; position: absolute; inset: 0;"/>
+                    <img src="${import.meta.env.BASE_URL}images/projects/campamento_dv/campamentodv_1.png" alt="ReCSaM header image" style="width: 100%; height: 100%; object-fit: contain; position: absolute; inset: 0;"/>
                 </div>
                 <div>I was selected as one of the teachers for one of this courses, becuase at the time I already had experience working as teacher at Univerisdad Modelo for the course of BDes in Interactive Design (And later on I also became a teacher at the Universidad Anahuac Mayab for their course on BSc in Digital Animation Engieenering).</div>
                 <div>I created the keynotes, and a simple project for a 101 course on game development with Unity. People from all ages gathered to learn to create some games. For 3 weeks on Saturdays I gave my course, explained the core concepts of game development oriented at a programmer's level more than a game design or art for games level.</div>
                 <div style="height: 24rem; position: relative; border-radius: 0.75rem; overflow: hidden; margin-top: 2rem; margin-bottom: 2rem;">
-                    <img src="/images/projects/campamento_dv/campamentodv_2.png" alt="ReCSaM header image" style="width: 100%; height: 100%; object-fit: contain; position: absolute; inset: 0;"/>
+                    <img src="${import.meta.env.BASE_URL}images/projects/campamento_dv/campamentodv_2.png" alt="ReCSaM header image" style="width: 100%; height: 100%; object-fit: contain; position: absolute; inset: 0;"/>
                 </div>
                 <div>The project I made was a simple enough vertical shooter, where you control a little spaceship and shoot enemies and evade obstacles. The project was made thinking in the best approach to theach core concepts like: Player Controller, Enemy Behaviour, Prefabs, Game Managers, and more.</div>
                 <div>Again this course was more focused on the technical side of things for game development, I gave the project and used free to use assets for the creation of the game.</div>
                 <div style="height: 24rem; position: relative; border-radius: 0.75rem; overflow: hidden; margin-top: 2rem; margin-bottom: 2rem;">
-                    <img src="/images/projects/campamento_dv/campamentodv_3.png" alt="ReCSaM header image" style="width: 100%; height: 100%; object-fit: contain; position: absolute; inset: 0;"/>
+                    <img src="${import.meta.env.BASE_URL}images/projects/campamento_dv/campamentodv_3.png" alt="ReCSaM header image" style="width: 100%; height: 100%; object-fit: contain; position: absolute; inset: 0;"/>
                 </div>
                 <div>This was a really fun experience. I can say that teaching is one of the things I like to do the most, gave me confidence when talking at public spaces and enriched my knowledge too. This also helped me when teaching new team members and create comprehensive and engaging keynotes. Over the years some students from the multiple universities and spaces I teached created games or joined the indsutry. Funny enough at social events they still call me "teacher".</div>
             `,
         media : [
             {
-                "absolute_url" : "/images/projects/campamento_dv/campamentodv_header.png",
+                "absolute_url" : `${import.meta.env.BASE_URL}images/projects/campamento_dv/campamentodv_header.png`,
                 "type" : "IMAGE",
                 "orientation" : "LANDSCAPE"
             },
                         {
-                "absolute_url" : "/images/projects/campamento_dv/campamentodv_1.png",
+                "absolute_url" : `${import.meta.env.BASE_URL}images/projects/campamento_dv/campamentodv_1.png`,
                 "type" : "IMAGE",
                 "orientation" : "LANDSCAPE"
             },
             {
-                "absolute_url" : "/images/projects/campamento_dv/campamentodv_2.png",
+                "absolute_url" : `${import.meta.env.BASE_URL}images/projects/campamento_dv/campamentodv_2.png`,
                 "type" : "IMAGE",
                 "orientation" : "LANDSCAPE"
             },
             {
-                "absolute_url" : "/images/projects/campamento_dv/campamentodv_3.png",
+                "absolute_url" : `${import.meta.env.BASE_URL}images/projects/campamento_dv/campamentodv_3.png`,
                 "type" : "IMAGE",
                 "orientation" : "LANDSCAPE"
             }
@@ -765,38 +765,38 @@ const projects = [
                 <div>LawLers - Super Service was project where our client contacted us to help them develop a game where LawLers' customers would earn discount coupons after playing some levels of a videogame, the client already had the idea of what type of game they wanted to develop.</div>
                 <div>As a request from them, they wanted us to work with Godot, thus we learnt how to use it, after some years developing with Unity the different approach for a Game Engine (Object Oriented instead of Entity Component) was very interesting. At the time Godot was still on its early stages but it had the promise of what it is now, a proper Open Source Object Oriented Game Engine that can compite with others.</div>
                 <div style="height: 24rem; position: relative; border-radius: 0.75rem; overflow: hidden; margin-top: 2rem; margin-bottom: 2rem;">
-                    <img src="/images/projects/lawlers/lawlers_1.png" alt="ReCSaM header image" style="width: 100%; height: 100%; object-fit: contain; position: absolute; inset: 0;"/>
+                    <img src="${import.meta.env.BASE_URL}images/projects/lawlers/lawlers_1.png" alt="ReCSaM header image" style="width: 100%; height: 100%; object-fit: contain; position: absolute; inset: 0;"/>
                 </div>
                 <div>I worked along side a freelance developer as a project manager and team lead. I talked with clients on meetings, and worked along side them for the assets deliverables. Guided and suppervised the development on the software side of things, reviewing the tasks I had previously prepared and organized.</div>
                 <div>There were no major issues with the development, as the client was very supportive of our work and we did our best to meet their expectations.</div>
                 <div style="height: 24rem; position: relative; border-radius: 0.75rem; overflow: hidden; margin-top: 2rem; margin-bottom: 2rem;">
-                    <img src="/images/projects/lawlers/lawlers_2.png" alt="ReCSaM header image" style="width: 100%; height: 100%; object-fit: contain; position: absolute; inset: 0;"/>
+                    <img src="${import.meta.env.BASE_URL}images/projects/lawlers/lawlers_2.png" alt="ReCSaM header image" style="width: 100%; height: 100%; object-fit: contain; position: absolute; inset: 0;"/>
                 </div>
                 <div>At some point, we started having some issues with the timing of the tasks, we managed to go back on track after some changes were done when reviewing the previous sprints.</div>
                 <div>We managed to burn more tickets on later stages of the development cycle on later sprints, and got back on track. This was a good learning experience in how to manage a project that became very useful later on in my career.</div>
                 <div style="height: 24rem; position: relative; border-radius: 0.75rem; overflow: hidden; margin-top: 2rem; margin-bottom: 2rem;">
-                    <img src="/images/projects/lawlers/lawlers_3.png" alt="ReCSaM header image" style="width: 100%; height: 100%; object-fit: contain; position: absolute; inset: 0;"/>
+                    <img src="${import.meta.env.BASE_URL}images/projects/lawlers/lawlers_3.png" alt="ReCSaM header image" style="width: 100%; height: 100%; object-fit: contain; position: absolute; inset: 0;"/>
                 </div>
                 <div>We managed to deliver on time, no major issues. I'm very greatful for the opportunity for this to be one of my first projects as a project manager at RCK Games.</div>
             `,
         media : [
             {
-                "absolute_url" : "/images/projects/lawlers/lawlers_header.png",
+                "absolute_url" : `${import.meta.env.BASE_URL}images/projects/lawlers/lawlers_header.png`,
                 "type" : "IMAGE",
                 "orientation" : "LANDSCAPE"
             },
                         {
-                "absolute_url" : "/images/projects/lawlers/lawlers_1.png",
+                "absolute_url" : `${import.meta.env.BASE_URL}images/projects/lawlers/lawlers_1.png`,
                 "type" : "IMAGE",
                 "orientation" : "LANDSCAPE"
             },
                         {
-                "absolute_url" : "/images/projects/lawlers/lawlers_2.png",
+                "absolute_url" : `${import.meta.env.BASE_URL}images/projects/lawlers/lawlers_2.png`,
                 "type" : "IMAGE",
                 "orientation" : "LANDSCAPE"
             },
                         {
-                "absolute_url" : "/images/projects/lawlers/lawlers_3.png",
+                "absolute_url" : `${import.meta.env.BASE_URL}images/projects/lawlers/lawlers_3.png`,
                 "type" : "IMAGE",
                 "orientation" : "LANDSCAPE"
             }
@@ -832,38 +832,38 @@ const projects = [
                 <div>After some years at the university studying my BSc in Software Engieneering I got the opportunity to achieve a personal goal: work at game studio. At the time, at least on my home state, there were no big studios and things were not as easy or streamlined as they are today for indie developers, so if I wanted to work making games it meant to move far from home. When I got the news from a friend that a new game studio was looking for junior programmers I was quite happy, I applied and got the job!</div>
                 <div>This was my second time working properly, if my professional practices count. The studio was RCK Games, a small game studio and micro-company (by the standards of management/documentation/company size), they already realsed a game called "Chobi's Candy Quest" for mobile devices, an infinite runner, so now they were looking for a more complete experience.</div>
                 <div style="height: 24rem; position: relative; border-radius: 0.75rem; overflow: hidden; margin-top: 2rem; margin-bottom: 2rem;">
-                    <img src="/images/projects/ghost_apocalypse/ghostapocalypse_1.webp" alt="ReCSaM header image" style="width: 100%; height: 100%; object-fit: contain; position: absolute; inset: 0;"/>
+                    <img src="${import.meta.env.BASE_URL}images/projects/ghost_apocalypse/ghostapocalypse_1.webp" alt="ReCSaM header image" style="width: 100%; height: 100%; object-fit: contain; position: absolute; inset: 0;"/>
                 </div>
                 <div>Ghost Apocalypse was the studio's first try at making a story-driven game. The story is about a pair of siblings that realised that have magical powers, as they can see ghosts. The ghost of their granpa tells them that an evil force is making the ghost go mad and attack the city. It's the job of this trio to fight back!</div>
                 <div>The main gameplay was focused on tower-defense mechanics, to spice things up, each character had a skill tree and could cast spells to do area of effect attacks or heal the party. The game featured a heavy difficulty curve, comic-style story telling and a OST. It was realised for Android and iOS devices.</div>
                 <div style="height: 24rem; position: relative; border-radius: 0.75rem; overflow: hidden; margin-top: 2rem; margin-bottom: 2rem;">
-                    <img src="/images/projects/ghost_apocalypse/ghostapocalypse_2.webp" alt="ReCSaM header image" style="width: 100%; height: 100%; object-fit: contain; position: absolute; inset: 0;"/>
+                    <img src="${import.meta.env.BASE_URL}images/projects/ghost_apocalypse/ghostapocalypse_2.webp" alt="ReCSaM header image" style="width: 100%; height: 100%; object-fit: contain; position: absolute; inset: 0;"/>
                 </div>
                 <div>It was developed using Unity, I was in charge of creating the HUD and implement the UI/UX of the game, as well as implementing animations and other assets. The I worked on creating the spells, while the team lead of software development (We were only tow programmers) worked on the tower-defense mechanics, enemy behaviours, game progression and game manager.</div>
                 <div>I used this opportunity to learn a lot about coding for games: The behaviour loop of a Game Engine, how to create Behavior Scripts and in general, to use Unity.</div>
                 <div style="height: 24rem; position: relative; border-radius: 0.75rem; overflow: hidden; margin-top: 2rem; margin-bottom: 2rem;">
-                    <img src="/images/projects/ghost_apocalypse/ghostapocalypse_3.webp" alt="ReCSaM header image" style="width: 100%; height: 100%; object-fit: contain; position: absolute; inset: 0;"/>
+                    <img src="${import.meta.env.BASE_URL}images/projects/ghost_apocalypse/ghostapocalypse_3.webp" alt="ReCSaM header image" style="width: 100%; height: 100%; object-fit: contain; position: absolute; inset: 0;"/>
                 </div>
                 <div>It was a fun and great first experience on the work-force, in a sense achieving a goal: work on game.</div>
             `,
         media : [
             {
-                "absolute_url" : "/images/projects/ghost_apocalypse/ghostapocalypse_header.png",
+                "absolute_url" : `${import.meta.env.BASE_URL}images/projects/ghost_apocalypse/ghostapocalypse_header.png`,
                 "type" : "IMAGE",
                 "orientation" : "LANDSCAPE"
             },
                         {
-                "absolute_url" : "/images/projects/ghost_apocalypse/ghostapocalypse_1.webp",
+                "absolute_url" : `${import.meta.env.BASE_URL}images/projects/ghost_apocalypse/ghostapocalypse_1.webp`,
                 "type" : "IMAGE",
                 "orientation" : "LANDSCAPE"
             },
                         {
-                "absolute_url" : "/images/projects/ghost_apocalypse/ghostapocalypse_2.webp",
+                "absolute_url" : `${import.meta.env.BASE_URL}images/projects/ghost_apocalypse/ghostapocalypse_2.webp`,
                 "type" : "IMAGE",
                 "orientation" : "LANDSCAPE"
             },
                         {
-                "absolute_url" : "/images/projects/ghost_apocalypse/ghostapocalypse_3.webp",
+                "absolute_url" : `${import.meta.env.BASE_URL}images/projects/ghost_apocalypse/ghostapocalypse_3.webp`,
                 "type" : "IMAGE",
                 "orientation" : "LANDSCAPE"
             }
