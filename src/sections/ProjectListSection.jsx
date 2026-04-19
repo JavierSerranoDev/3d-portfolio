@@ -7,7 +7,7 @@ const ProjectsSection = ({ projects }) => {
     <section id="projects" className="flex-center">
         <div className="w-full h-full md:px-10 px-5">
             <TitleHeader title="Works I've made" sub="⭐ Showcase of cool stuff"/>
-            <div className="lg:columns-3 md:columns-2 columns-1 mt-16">
+            <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-6 mt-16 items-start">
                 {projects.map(({ id, title, media, teaser}, index) => (
                     <Link to={`/project/${id}`} key={index}>
                         <ProjectGlowCard card={{ title, media, teaser }}/>

@@ -27,7 +27,7 @@ const ProjectGlowCard = ({ card, index }) => {
             <div>
                 <img src={card.media[0].absolute_url} alt={card.title}/>
             </div>
-            <p className="font-bold">{card.title}</p>
+            <p className="font-bold pt-5 pb-5">{card.title}</p>
             <p className="text-white-50 text-lg">{card.teaser}</p>
         </div>
     </div>

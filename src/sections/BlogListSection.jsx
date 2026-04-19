@@ -7,10 +7,10 @@ const BlogListSection = ({ posts }) => {
     <section id="projects" className="flex-center">
         <div className="w-full h-full md:px-10 px-5">
             <TitleHeader title="Posts I've made" sub="✍🏻 Showcase of stuff to learn from"/>
-            <div className="columns-1 mt-16">
-                {posts.map(({ id, imgPath, title, preview_text}, index) => (
+            <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-6 mt-16 items-start">
+                {posts.map(({ id, title, media, teaser}, index) => (
                     <Link to={`/post/${id}`} key={index}>
-                        <PostGlowCard card={{ title, imgPath, preview_text }}/>
+                        <PostGlowCard card={{ title, media, teaser }}/>
                     </Link>
                 ))}
             </div>

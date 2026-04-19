@@ -36,7 +36,7 @@ const WorkHighlight = ({ topProjectsImgPaths }) => {
                             <h1>into Real Projects</h1>
                             <h1>that Deliver Results</h1>
                         </div>
-                        <p className='text-white-50 md:text-xl relative z- 10 pointer-events-none'> Hi, I'm Javier, a developer based in Mexico with a passion for code.</p>
+                        <p className='text-white-50 md:text-xl relative z- 10 pointer-events-none'> These are some of the projects I've worked on. Please do check them out!</p>
                     </div>
                 </header>
                 {/*RIGHT: CAROUSEL CONTENT*/}

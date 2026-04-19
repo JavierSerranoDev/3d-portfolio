@@ -85,7 +85,7 @@ const expCards = [
         imgPath : "/images/experiences/anahuac/Logo-Horizontal.png",
         color : "#ff5900",
         date : "From 2022-08-01 to 2025-09-30",
-        review: "I was hired as a teacher for the Bachelor's Degree in Digital Animation Engineering at Universidad Anahuac Mayab, for the modules of 'Game Engines I', 'Game Engines II', 'Programming for Games' and 'Practicum for Video Games'.",
+        review: "I was hired as a teacher for the BSc in Digital Animation Engineering at Universidad Anahuac Mayab, for the modules of 'Game Engines I', 'Game Engines II', 'Programming for Games' and 'Practicum for Video Games'.",
         responsibilities : [
             "Created the course content, preparing the lectures and assignments, and evaluating the students' performance. I also provided feedback and support to the students throughout the course.",
             "Students under my guidance were able to develop their skills in game engines, programming for games, and practicum for video games, and many of them went to join international companies and teams in video game development.",
@@ -116,7 +116,7 @@ const expCards = [
         imgPath : "/images/experiences/modelo/Logo-Horizontal.png",
         color : "#061f57",
         date : "From 2019-08-01 to 2021-12-31",
-        review: "I was hired as a teacher for the Bachelor's Degree in Digital Design at Universidad Modelo, for the modules of 'Design of Educational Vide Games', 'Augmented Reality' and 'Design of Objects of Digital Learning'.",
+        review: "I was hired as a teacher for the BDes in Interactive Design at Universidad Modelo, for the modules of 'Design of Educational Vide Games', 'Augmented Reality' and 'Design of Objects of Digital Learning'.",
         responsibilities : [
             "Created the course content, preparing the lectures and assignments, and evaluating the students' performance. I also provided feedback and support to the students throughout the course.",
             "Students under my guidance were able to develop their skills in game design, augmented reality, and digital learning, and many of them went on to create impressive projects and portfolios."

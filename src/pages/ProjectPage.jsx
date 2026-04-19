@@ -11,6 +11,10 @@ const ProjectPage = () => {
   const { id } = useParams();
   const [currentProject, setCurrentProject] = useState({});
 
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
   useEffect(() => {
     const project = projects.find((p) => p.id === parseInt(id));
     setCurrentProject(project || {});

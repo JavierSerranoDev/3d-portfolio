@@ -87,6 +87,15 @@ const toolsIndex = [
     "logo" : "/images/tools/godot/Logo-Horizontal.png",
     "color" : "#478cbf"
   }
+  ,
+  {
+    "id" : 11,
+    "name" : "Stripe",
+    "description" : "A payment processing platform that enables businesses to accept online payments and manage their financial transactions securely.",
+    "timeline_icon" : "/images/tools/stripe/Icono.png",
+    "logo" : "/images/tools/stripe/Logo-Horizontal.png",
+    "color" : "#635bff"
+  }
 ]
 
 export default toolsIndex;

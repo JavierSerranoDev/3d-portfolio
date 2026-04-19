@@ -40,6 +40,8 @@ const ProjectExperienceSection = ({ tools }) => {
         return { ...toolData, ...entry };
     }) ?? [];
 
+     if (enrichedTools.length === 0) return null;
+
     const gradient = generateGradient(enrichedTools);
 
     useGSAP(() => {

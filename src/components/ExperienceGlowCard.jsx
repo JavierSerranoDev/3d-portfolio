@@ -1,6 +1,6 @@
 import { useRef } from 'react';
 
-const PostGlowCard = ({ card, index }) => {
+const ExperienceGlowCard = ({ card, children, index }) => {
     const cardRefs = useRef([]);
 
     const handleMouseMove = (i) => (e) => {
@@ -24,14 +24,11 @@ const PostGlowCard = ({ card, index }) => {
     <div ref={(el) => (cardRefs.current[index] = el)} onMouseMove={handleMouseMove(index)} className="card card-border timeline-card rounded-xl p-10 mb-5 break-inside-avoid-column">
         <div className="glow"/>
         <div className="mb-5">
-            <div>
-                <img src={card.media[0].absolute_url} alt={card.title}/>
-            </div>
-            <p className="font-bold pt-5 pb-5">{card.title}</p>
-            <p className="text-white-50 text-lg">{card.teaser}</p>
+            <p className="text-white-50 text-lg">{card.review}</p>
         </div>
+        {children}
     </div>
   )
 }
 
-export default PostGlowCard
+export default ExperienceGlowCard

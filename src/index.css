@@ -308,7 +308,7 @@ section {
   }
 
   .tech-icon-wrapper {
-    @apply flex justify-center items-center w-52 h-60 relative;
+    @apply flex justify-center items-center w-52 h-50 relative;
   }
 
   form {
@@ -366,7 +366,7 @@ section {
     }
 
     .project-highlight-img-container {
-      @apply rounded-xl p-20 mb-5 break-inside-avoid-column;
+      @apply rounded-xl md:p-20 sm:p-10 p-2.5 mb-5 break-inside-avoid-column;
     }
   }
 }

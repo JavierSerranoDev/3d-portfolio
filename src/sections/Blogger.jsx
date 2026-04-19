@@ -33,7 +33,7 @@ const Blogger = () => {
                 <header className="flex flex-col justify-center md:w-full w-screen md:px-20 px-5">
                     <div className="flex flex-col gap-7">
                         <div className="hero-text">
-                            <h1>Sharing my</h1>
+                            <h1>Sharing my life and</h1>
                             <h1>knowledge on</h1>
                             <h1>Software Development</h1>
                         </div>

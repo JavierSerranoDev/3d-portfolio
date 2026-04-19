@@ -13,6 +13,14 @@ export default function ProfileSection() {
         });
     };
 
+    const socials = [
+        { href: "https://x.com/javi_pepper_", label: "🐦‍⬛ Twitter" },
+        { href: "https://www.instagram.com/javi.pepper/", label: "📷 Instagram" },
+        { href: "https://www.youtube.com/@Javi.Pepper", label: "📹 YouTube" },
+        { href: "https://www.linkedin.com/in/jose-javier-serrano-solis", label: "💼 LinkedIn" },
+        { href: "https://github.com/JavierSerranoDev/", label: "💻 GitHub" },
+    ];
+
     return (
         <div
             className="padding-x-lg xl:mt-0 mt-32 mb-30"
@@ -38,29 +46,24 @@ export default function ProfileSection() {
                 </div>
                 <div className="profile-info">
                     <ul className="profile-list">
-                        <li className="text-white-50 md:text-xl relative z- 10 pointer-events-none">
+                        <li className="text-white-50 md:text-xl relative z-10 pointer-events-none">
                             <strong>Name:</strong> Jose Javier Serrano Solis
                         </li>
-                        <li className="text-white-50 md:text-xl relative z- 10 pointer-events-none">
+                        <li className="text-white-50 md:text-xl relative z-10 pointer-events-none">
                             <strong>Education:</strong> B.S. in Software Engieering, UADY, Mexico.
                         </li>
                     </ul>
-                    <ul className="profile-list mt-5">
-                        <li className="text-white-50 md:text-xl relative z- 10 pointer-events-none">
-                            <a href="https://x.com/javi_pepper_" target="_blank" rel="noreferrer">
-                                <strong>Twitter</strong>
-                            </a>
-                        </li>
-                        <li className="text-white-50 md:text-xl relative z- 10 pointer-events-none">
-                            <a href="https://www.linkedin.com/in/jose-javier-serrano-solis" target="_blank" rel="noreferrer">
-                                <strong>LinkedIn</strong>
-                            </a>
-                        </li>
-                        <li className="text-white-50 md:text-xl relative z- 10 pointer-events-none">
-                            <a href="https://github.com/JavierSerranoDev/" target="_blank" rel="noreferrer">
-                                <strong>GitHub</strong>
-                            </a>
-                        </li>
+                    <ul className="profile-list mt-5 md:flex md:flex-row md:items-center md:flex-wrap flex flex-col items-center">
+                        {socials.map((item, index, arr) => (
+                            <li key={index} className="text-white-50 md:text-xl flex items-center">
+                                <a href={item.href} target="_blank" rel="noreferrer">
+                                    {item.label}
+                                </a>
+                                {index < arr.length - 1 && (
+                                    <span className="hidden md:inline mx-2 text-white-50">|</span>
+                                )}
+                            </li>
+                        ))}
                     </ul>
                 </div>
             </div>

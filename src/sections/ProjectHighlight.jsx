@@ -45,7 +45,7 @@ const ProjectHighlight = ({ title, date, description, media, html }) => {
                         <div className="title-text">
                             <h1>{title}</h1>
                         </div>
-                        <p className='white font-bold md:text-xl relative z-10 pointer-events-none'>{`Release date: ${date}`}</p>
+                        <p className='white font-bold md:text-xl relative z-10 pointer-events-none'>{/*`Release date: ${date}`*/}</p>
                         <p className='text-white-50 md:text-xl relative z-10 pointer-events-none'>{description}</p>
                     </div>
                 </header>

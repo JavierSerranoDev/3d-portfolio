@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import NavBar from '../components/NavBar.jsx';
 import Footer from '../sections/Footer.jsx';
 import WorkHighlight from '../sections/WorkHighlight.jsx';
-import ProjectsSection from '../sections/ProjectsSection.jsx';
+import ProjectsSection from '../sections/ProjectListSection.jsx';
 import projects from '../constants/projectsIndex.js';
 
 const WorkPage = () => {

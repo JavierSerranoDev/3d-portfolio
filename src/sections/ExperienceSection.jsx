@@ -1,5 +1,5 @@
 import TitleHeader from '../components/TitleHeader';
-import GlowCard from '../components/GlowCard.jsx';
+import ExperienceGlowCard from '../components/ExperienceGlowCard.jsx';
 import { expCards } from '../constants/experienceIndex.js';
 import gsap from 'gsap';
 import { useGSAP } from '@gsap/react';
@@ -60,11 +60,11 @@ const ExperienceSection = () => {
                     {expCards.map((card, index) => (
                         <div key={index} className="exp-card-wrapper">
                             <div className="xl:w-2/6">
-                                <GlowCard card={card} index={index}>
+                                <ExperienceGlowCard card={card} index={index}>
                                     <div>
                                         <img src={card.imgPath} alt={card.title}/>
                                     </div>
-                                </GlowCard>
+                                </ExperienceGlowCard>
                             </div>
                             <div className="xl:w-4/6">
                                 <div className="flex items-start">
