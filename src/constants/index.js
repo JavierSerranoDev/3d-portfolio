@@ -224,17 +224,25 @@ const expLogos = [
 const testimonials = [
   {
     name: "Ricardo Gonzalez",
-    mentions: "CEO of RCK Games | @rckgames",
+    mentions: "CEO at RCK Games | @rckgames",
     review:
       "His ability to approach problems, search for solutions and apply them in-time with structure, along with a innovative mindset has benefited the company in many ways.",
     imgPath: `${import.meta.env.BASE_URL}images/client1.png`,
   },
   {
     name: "Dr. Jorge García",
-    mentions: "Director of the Faculty of Engineering at Universidad Anáhuac Mayab",
+    mentions: "Dir. of the Faculty of Engineering at Universidad Anáhuac Mayab",
     review:
       "Mr. Serrano exhibits perseverance and dedication. Whether developing new course materials, refining his instructional methods, or engaging in his professional projects, he consistently delivers very good results. He is also receptive to constructive feedback, using it as a tool to enhance his classes.",
     imgPath: `${import.meta.env.BASE_URL}images/client2.png`,
+  },
+  ,
+  {
+    name: "Landy",
+    mentions: "PM at CoolNerdyPeople, prevly. PM at RCK Games | @zevnei",
+    review:
+      "Working with Javi was a really great experience! He’s someone reliable and straightforward with both the team and clients. He was always open to feedback and willing to collaborate. I also ended up learning quite a bit about video games and manga along the way!",
+    imgPath: `${import.meta.env.BASE_URL}images/client3.png`,
   }
 ];
 
